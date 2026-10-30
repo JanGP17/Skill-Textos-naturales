@@ -1,0 +1,15 @@
+interface:
+  display_name: Humanizar
+  short_description: Redacta y revisa con voz natural y texto final limpio.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Usa $humanizar para redactar o revisar con voz natural y texto final
+    limpio; resuelve las dudas esenciales en el chat antes de finalizar y conserva
+    los hechos.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

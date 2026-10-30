@@ -1,0 +1,40 @@
+CONDICIONES DE USO DE HUMANIZAR 2.0
+
+Copyright (c) 2026 Jan Stevenson Galarreta Pocito (JanGP17).
+Repositorio de origen: https://github.com/JanGP17/Skill-Textos-naturales
+
+1. USO PROPIO
+Se permite descargar, instalar y utilizar los archivos propios de Humanizar
+para trabajos personales, académicos y profesionales. Se permite adaptar
+una copia para uso propio, conservando el aviso de autoría, estas condiciones
+y el enlace al repositorio de origen.
+
+2. ATRIBUCIÓN Y ORIGEN
+La copia de la habilidad debe conservar la identificación del responsable
+del proyecto y su repositorio de origen. Para recomendar Humanizar,
+comparta el enlace al repositorio.
+
+3. DISTRIBUCIÓN Y COMERCIALIZACIÓN
+La redistribución de los archivos, la publicación de versiones modificadas
+y la comercialización de la habilidad requieren autorización previa del
+responsable del proyecto. Las solicitudes se realizan a través del
+repositorio de origen. Se respetan las facultades que correspondan por ley
+y las condiciones propias de la plataforma que aloja el proyecto.
+
+4. TEXTOS ELABORADOS CON LA HABILIDAD
+Estas condiciones regulan los archivos de Humanizar. No exigen incluir una
+mención de Humanizar ni un enlace al repositorio en los textos elaborados
+con su ayuda.
+
+5. MATERIALES DE TERCEROS
+Los trabajos citados, las fuentes enlazadas y los materiales de terceros
+conservan sus derechos y condiciones originales. Estas condiciones no
+conceden derechos adicionales sobre esos materiales.
+
+6. RESPONSABILIDAD DE REVISIÓN
+La habilidad se proporciona tal como está. Quien la utiliza debe revisar
+la exactitud y pertinencia de los textos antes de publicarlos o entregarlos.
+No se garantiza un resultado específico de evaluación, publicación o
+clasificación por herramientas externas.
+
+Los permisos no concedidos expresamente quedan reservados.
