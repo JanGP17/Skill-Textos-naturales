@@ -3,7 +3,7 @@ name: humanizar
 description: Redacta, edita y audita textos académicos y profesionales en español con voz natural y contenido fiel al original. Usar al pedir humanizar, mejorar redacción o auditar escritura. Entregar prosa final limpia; tratar las incidencias editoriales exclusivamente en el chat. Evitar oposición retórica, generalidades vacías, tríadas ornamentales y ritmos mecánicos en documentos y conversación. No aplica APA 7 ni promete resultados en detectores de IA.
 ---
 
-# Humanizar · v2.1
+# Humanizar · v2.2
 
 ## Contrato obligatorio de entrega
 
@@ -24,7 +24,7 @@ Este contrato prevalece sobre cualquier pauta editorial de los materiales de apo
 Aplicar estas reglas al texto encargado y a la conversación:
 
 - Formular las ideas directamente. Eliminar los moldes de oposición retórica: «no es X, sino Y», «no se trata de X, se trata de Y», «más que X, Y» y «X, no Y». Evitar también «no solo X, sino también Y» como amplificación. Explicar las diferencias reales con los datos de cada caso y frases directas.
-- Eliminar generalidades vacías, elogios intercambiables y afirmaciones universales sin respaldo. Precisar con el material disponible. Si falta información, consultar en el chat o conservar la formulación original dentro de una edición expresiva, sin inventar detalles.
+- Eliminar generalidades vacías, elogios intercambiables y afirmaciones universales sin respaldo. Precisar con el material disponible. Usar la información disponible para reescribir la frase. Consultar en el chat si falta un dato indispensable; mantener el alcance factual mientras siga sin resolverse. Evitar conservar un giro problemático bajo la instrucción de fidelidad.
 - Evitar tríadas ornamentales y series de tres beneficios o adjetivos creadas para dar cadencia. Conservar las enumeraciones factuales completas cuando sus elementos forman parte del contenido, aunque sean tres. Mantener literalmente citas, denominaciones y categorías técnicas.
 - Construir cada párrafo según lo que necesita explicar. Evitar secuencias de párrafos con igual longitud, arranques repetidos y cierres simétricos. Dejar que el razonamiento determine la extensión; evitar cuotas artificiales de frases cortas y largas.
 
@@ -36,7 +36,7 @@ Actuar como redactor y editor crítico de prosa en español. Conservar la intenc
 
 Conservar el contenido factual suministrado y distinguir internamente los datos de las interpretaciones. Prohibir nuevas fuentes, resultados o vivencias inventadas. Mantener el estado temporal de cada actividad: prevista, ejecutada o evaluada. Conservar la incertidumbre expresada por el autor.
 
-Clasificar primero la función de cada frase. La fidelidad a los datos no obliga a conservar aclaraciones editoriales incrustadas en el original: retirarlas según SALIDA_LIMPIA.md. Reservar las correcciones sustantivas de datos y argumentos del autor para decisiones resueltas en el chat. Si la consulta queda sin respuesta, mantener la afirmación original durante la edición expresiva y registrar el hallazgo únicamente en la conversación cuando se haya pedido auditoría. Evitar introducir nuevas inferencias sin respaldo. La falta de acceso a una fuente no demuestra que sea falsa.
+Clasificar primero la función de cada frase. La fidelidad a los datos no obliga a conservar aclaraciones editoriales incrustadas en el original: retirarlas según SALIDA_LIMPIA.md. Reservar las correcciones sustantivas de datos y argumentos del autor para decisiones resueltas en el chat. Si la consulta queda sin respuesta, conservar los datos y el sentido factual de la afirmación; reformular su expresión cuando incumpla el estilo. Registrar el hallazgo únicamente en la conversación cuando se haya pedido auditoría. La conservación literal se limita a citas e identificadores, además de datos cuyo reemplazo siga sin resolverse. Evitar introducir nuevas inferencias sin respaldo. La falta de acceso a una fuente no demuestra que sea falsa.
 
 Mantener el formato del documento recibido. La normalización APA 7 corresponde a `apa7`; trabajarla en una pasada independiente cuando se solicite. Abstenerse de prometer indetectabilidad, porcentajes de humanidad o puntuaciones de Turnitin. Aplicar las obligaciones de declaración de uso de IA que correspondan al encargo.
 
@@ -46,9 +46,13 @@ Mantener el formato del documento recibido. La normalización APA 7 corresponde 
 
 Reconocer el género y el propósito del texto. Distinguir una petición de versión final de una solicitud de diagnóstico. Usar el contexto disponible antes de preguntar. Aplicar el procedimiento de incidencias del contrato obligatorio cuando aparezcan dudas.
 
-Para redacción desde apuntes, leer `referencias/REDACCION_Y_SEIS_SENALES.md`. Para edición, partir del original y mantener lo que ya funciona.
+Para redacción desde apuntes, leer `referencias/REDACCION_Y_SEIS_SENALES.md`. Para edición, partir del original y mantener lo que ya funciona. Aplicar todas las correcciones expresivas necesarias con la autorización de «auditar y aplicar». La preservación del formato permite reescribir el contenido de los párrafos y las celdas.
 
-### 2. Revisar internamente
+### 2. Inventariar y revisar internamente
+
+En documentos, leer `referencias/REVISION_DOCUMENTAL_COMPLETA.md` y seguir su procedimiento. Para DOCX, ejecutar `scripts/auditar_estilo.py entrada.docx --json --inventario` antes de editar. Registrar la decisión editorial de cada bloque de texto, incluidas las celdas. Identificar por separado las imágenes que necesitan inspección visual. La extracción automática no cuenta como revisión semántica.
+
+Al recibir un encargo con un archivo local de instrucciones explícito, leer ese archivo y comprobar su versión. Evitar asumir que una instalación de otro entorno fue actualizada automáticamente.
 
 Leer `referencias/REGLAS_DE_REDACCION.md`. Identificar el problema concreto y su posible corrección. Mantener este análisis interno salvo que se solicite auditoría. Consultar `referencias/PROTOCOLO_DE_AUDITORIA.md` al auditar.
 
@@ -58,11 +62,11 @@ Revisar la evidencia de toda proposición añadida por el asistente. Utilizar lo
 
 Desarrollar cada párrafo alrededor de su aportación al propósito. Vincular los resultados con el dato disponible. Relacionar fuentes por su contenido efectivamente conocido. Explicar diferencias de método o población cuando estén documentadas. Evitar añadir una limitación a cada hallazgo por costumbre.
 
-Aplicar las reglas de expresión en toda salida. Mantener el léxico técnico y retirar relleno. Ajustar la revisión a la magnitud del problema; conservar las frases claras.
+Aplicar las reglas de expresión en toda salida. Mantener el léxico técnico y retirar relleno. Ajustar la revisión a la magnitud del problema; conservar las frases claras. Reescribir todo pasaje que incumpla una regla, aunque ya figure en el original. Evitar reducir una petición de humanización completa a correcciones puntuales de coherencia. Mantener las incidencias de evidencia en el chat; describir directamente el objeto del documento. Retirar completas las notas que recapitulan la auditoría, aunque mencionen fechas o cifras. Conservar los datos sustantivos en sus registros de origen.
 
 ### 4. Comprobar la entrega completa
 
-Comparar los datos de la versión revisada con el original. Revisar todos los componentes del entregable mediante `referencias/SALIDA_LIMPIA.md`. Comprobar también el estilo de cualquier comentario de chat.
+Abrir el archivo final guardado, extraer nuevamente su contenido y ejecutar el auditor sobre ese archivo. Comparar los datos de la versión revisada con el original. Resolver cada coincidencia mediante revisión contextual y comprobar el registro de cobertura. Revisar todos los componentes del entregable mediante `referencias/SALIDA_LIMPIA.md`. Comprobar también el estilo de cualquier comentario de chat.
 
 En documentos extensos, revisar la relación entre objetivos y resultados con la matriz de `referencias/REDACCION_Y_SEIS_SENALES.md`. Limitar el diagnóstico a las secciones disponibles y comunicar cualquier petición de contexto en la conversación.
 
@@ -70,6 +74,7 @@ Entregar la versión limpia. Añadir diagnóstico en el chat únicamente cuando 
 
 ## Materiales de apoyo
 
+- `referencias/REVISION_DOCUMENTAL_COMPLETA.md`: inventario, reescritura por bloques y comprobación del archivo guardado.
 - `referencias/SALIDA_LIMPIA.md`: contrato de canales, tratamiento de incidencias y control de entrega.
 - `referencias/REGLAS_DE_REDACCION.md`: reglas operativas por problema y sección.
 - `referencias/REDACCION_Y_SEIS_SENALES.md`: generación desde evidencia y coherencia entre secciones.
@@ -77,8 +82,8 @@ Entregar la versión limpia. Añadir diagnóstico en el chat únicamente cuando 
 - `referencias/PROTOCOLO_DE_AUDITORIA.md`: revisión interna y diagnóstico solicitado.
 - `referencias/MAPA_DE_89_INDICIOS.md`: inventario contextual; consultar los asuntos pertinentes.
 - `referencias/TAXONOMIA_FORENSE_Y_EVIDENCIA.md`: consultar para investigación sobre modelos y detectores; distinguir evidencia empírica de observación comunitaria.
-- `scripts/auditar_estilo.py`: apoyo heurístico local para `.txt` y `.md`. Evaluar cada coincidencia en contexto. El script no comprueba hechos ni certifica autoría. Evitar utilizar el número de coincidencias como objetivo de edición.
+- `scripts/auditar_estilo.py`: apoyo heurístico local para `.txt`, `.md` y `.docx`; genera un inventario de texto editable de Word con ubicaciones. Evaluar cada coincidencia en contexto. El script no comprueba hechos ni certifica autoría. Evitar utilizar el número de coincidencias como objetivo de edición.
 
 ## Criterio de aceptación
 
-Comprobar fidelidad al material aportado y claridad del texto completo. Confirmar que las incidencias editoriales quedaron en la conversación y que el entregable termina con su contenido. Corregir cualquier incumplimiento antes de entregar.
+Comprobar fidelidad al material aportado y claridad del texto completo. Acreditar la revisión de sus bloques mediante el registro interno. Evitar declarar «revisado completo» basándose en un número de cambios o en ausencia de coincidencias automáticas. Confirmar que las incidencias editoriales quedaron en la conversación y que el entregable termina con su contenido. Corregir cualquier incumplimiento antes de entregar.

@@ -90,7 +90,7 @@ El fragmento presentado por el usuario como «redacción humana» combina una re
 
 Si solo se aporta el coeficiente y el valor p como datos del estudio, puede redactarse: «Se observó una correlación positiva (r = 0.34, p < .05)». Confirmar cuáles son las variables antes de nombrarlas. Esta formulación no agrega causalidad, relevancia práctica ni entrevistas.
 
-Evitar añadir «esta discrepancia se explica» cuando solo existe una explicación plausible. Si la frase está en el original, consultar el cambio sustantivo en el chat. Conservarla en una edición expresiva mientras no se resuelva la decisión, siguiendo SALIDA_LIMPIA.md; mantener el diagnóstico fuera del entregable.
+Evitar añadir «esta discrepancia se explica» cuando solo existe una explicación plausible. Si la frase está en el original, consultar el cambio sustantivo en el chat. Conservar su sentido factual y reformular el estilo en una edición expresiva mientras no se resuelva la decisión, siguiendo SALIDA_LIMPIA.md; mantener el diagnóstico fuera del entregable.
 
 ## 5. Comprobar cobertura y entregar
 

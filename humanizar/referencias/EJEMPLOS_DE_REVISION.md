@@ -1,6 +1,6 @@
 # Ejemplos de revisión editorial
 
-Los datos mencionados son **ficticios y meramente ilustrativos**. No trasladarlos a ninguna tesis real. Aplicar SALIDA_LIMPIA.md: las consultas pertenecen al chat y una consulta sin respuesta sobre un dato aportado permite continuar la edición conservando el original.
+Los datos mencionados son **ficticios y meramente ilustrativos**. No trasladarlos a ninguna tesis real. Aplicar SALIDA_LIMPIA.md: las consultas pertenecen al chat y una consulta sin respuesta sobre un dato aportado permite continuar la edición conservando los datos y reformulando el estilo.
 
 ## Caso 1: introducción genérica
 
@@ -24,7 +24,7 @@ Los datos mencionados son **ficticios y meramente ilustrativos**. No trasladarlo
 
 **Después, si solo se conoce una correlación ilustrativa:** «Se observó una asociación positiva entre uso de la plataforma y rendimiento (r = .34, p < .05)».
 
-**Decisión sustantiva en el chat:** confirmar el cambio de causalidad a asociación antes de aplicar esta versión. Si la consulta queda sin resolver, conservar el original durante la edición expresiva. Usar r y p únicamente si fueron aportados. Terminar el resultado con su contenido, sin agregar un cierre de advertencia.
+**Decisión sustantiva en el chat:** confirmar el cambio de causalidad a asociación antes de aplicar esta versión. Si la consulta queda sin resolver, conservar el sentido factual y reformular el estilo durante la edición expresiva. Usar r y p únicamente si fueron aportados. Terminar el resultado con su contenido, sin agregar un cierre de advertencia.
 
 ## Caso 4: limitación inventada
 

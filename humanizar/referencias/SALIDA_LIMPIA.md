@@ -1,4 +1,4 @@
-# Contrato de salida limpia · Humanizar 2.1
+# Contrato de salida limpia · Humanizar 2.2
 
 Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 
@@ -21,10 +21,10 @@ Tratar como texto encargado un mensaje de bienvenida, un párrafo o un pie de fi
 | Información suficiente | Redactar y terminar | Contenido solicitado |
 | Duda accesoria | Omitir la observación | Conservar la descripción pertinente |
 | Error aparente en un dato aportado | Consultar una vez en el chat si afecta al encargo | Mantener el dato hasta recibir una corrección confirmada |
-| Consulta sobre un dato aportado sin respuesta o sin solución | Continuar la edición expresiva | Conservar el original, incluido el posible error; omitir etiquetas y advertencias |
+| Consulta sobre un dato aportado sin respuesta o sin solución | Continuar la edición expresiva | Conservar los datos y el sentido factual, incluido el posible error; reformular la expresión y omitir etiquetas y advertencias |
 | Dato indispensable para una afirmación nueva ausente | Preguntar en el chat y avanzar con el contenido disponible | Abstenerse de añadir la afirmación nueva mientras falte su dato |
 | Corrección confirmada por el autor o por una comprobación encargada y concluyente | Aplicar la corrección | Usar el dato resuelto sin relato editorial del cambio |
-| Inferencia sustantiva cuestionable en el original | Consultar el cambio de sentido en el chat | Mantener el original si la decisión queda sin resolver durante una edición expresiva |
+| Inferencia sustantiva cuestionable en el original | Consultar el cambio de sentido en el chat | Mantener el sentido factual mientras la decisión siga sin resolver; reformular el estilo y retirar comentarios editoriales |
 
 Usar el texto aportado como base de trabajo. Reservar la comprobación externa para el encargo que la requiera. Preservar un dato original no lo convierte en comprobado externamente. Evitar preguntas repetidas sobre una incidencia ya consultada sin respuesta.
 
@@ -57,6 +57,14 @@ En una evaluación técnica cuyo encargo expreso sea determinar cumplimiento o a
 
 Conservar los resultados negativos y las limitaciones científicas que pertenecen al estudio. Ejemplo: «No se encontraron diferencias estadísticamente significativas». Mantener las citas literales y las fuentes de figuras. Evaluar cada nota por su función.
 
+### Retirar recapitulaciones de la auditoría
+
+Evaluar también notas que ya no contienen palabras de advertencia. Una nota cuyo propósito es recapitular fechas contradictorias o datos observados por el revisor sigue siendo un comentario editorial. Retirarla completa del informe descriptivo y tratar su contenido en el chat.
+
+Comprobar la conservación de datos sustantivos en sus registros de origen. Evitar repetirlos en una nota solo para conservar cada aparición numérica. Una fecha mencionada únicamente para explicar una inconsistencia de auditoría pertenece al hallazgo del chat. Preservar la fecha de cada prueba en su celda cuando siga sin corregirse.
+
+Ejemplo: después de conservar `35/10/2026` en las filas de pruebas, retirar la nota «Las dos primeras comprobaciones tienen fecha 35/10/2026; la revisión general está fechada el 25/10 y se incluyen cambios del 30/10» cuando su función sea recapitular las incidencias detectadas. Evitar sustituir «fecha inválida» por una recapitulación equivalente.
+
 ## 4. Aplicar el estilo también a la conversación
 
 Formular directamente lo que se quiere decir. Evitar moldes de oposición retórica y generalidades vacías. Retirar tríadas ornamentales. Conservar enumeraciones factuales completas. Desarrollar cada intervención con la extensión que requiera, sin ritmos simétricos impuestos.
@@ -78,6 +86,8 @@ Omitir «fecha inválida», `[sic]`, avisos en la celda y notas explicativas. Ev
 Terminar ahí. Si se pide afirmar que los cambios se guardaron y ese dato está ausente, preguntar en el chat. Mientras falte la respuesta, mantener la descripción de la edición sin añadir una afirmación de guardado.
 
 ## 6. Comprobar antes de entregar
+
+Aplicar REVISION_DOCUMENTAL_COMPLETA.md en archivos. Reabrir la salida guardada y cotejarla con el registro de decisiones por bloque. Un inventario o una búsqueda automática registra extracción y coincidencias; la revisión semántica requiere leer cada bloque.
 
 Leer el entregable completo desde la voz del autor. Buscar intrusiones editoriales también en encabezados de tablas, celdas y pies. Cotejar fechas y cifras con el original o con las correcciones confirmadas. Confirmar que los resultados negativos siguen presentes. Revisar las reglas de expresión tanto en el texto encargado como en la conversación adjunta.
 

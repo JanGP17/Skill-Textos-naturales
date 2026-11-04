@@ -1,4 +1,4 @@
-# Humanizar 2.1
+# Humanizar 2.2
 
 Humanizar ayuda a redactar y revisar textos académicos y profesionales en español con claridad y una voz natural. Conserva los hechos y la intención del autor, y mejora la forma de desarrollar y conectar las ideas.
 
@@ -14,11 +14,11 @@ Humanizar ayuda a redactar y revisar textos académicos y profesionales en espa�
 - Conserva la voz del autor y los términos técnicos que aportan precisión.
 - Entrega texto final limpio y mantiene las incidencias editoriales en el chat. Conserva los datos aportados mientras falte una corrección confirmada.
 
-Incluye un inventario de 89 asuntos de revisión, ejemplos y un auditor opcional para archivos de texto. APA 7 se trabaja con una habilidad independiente.
+Incluye un inventario de 89 asuntos de revisión y ejemplos. El auditor admite Word y localiza las coincidencias en sus párrafos y tablas. La revisión documental utiliza un registro interno de decisiones y vuelve a comprobar el archivo guardado. APA 7 se trabaja con una habilidad independiente.
 
-## La regla central de la versión 2.1
+## La regla central de la versión 2.2
 
-El documento final contiene únicamente el texto destinado a su lector. Esta regla comprende los párrafos, las notas, los pies de figura y los anexos. Las observaciones editoriales accesorias se omiten; cuando falta un dato indispensable, la habilidad hace una consulta en el chat. Si una consulta sobre un dato aportado queda sin respuesta, conserva el original, incluido un posible error de fecha, sin añadir avisos en el documento. Las limitaciones del estudio y los resultados negativos se mantienen cuando forman parte del contenido.
+El documento final contiene únicamente el texto destinado a su lector. Esta regla comprende los párrafos, las notas, los pies de figura y los anexos. Las observaciones editoriales accesorias se omiten; cuando falta un dato indispensable, la habilidad hace una consulta en el chat. Si una consulta sobre un dato aportado queda sin respuesta, conserva los datos originales, incluido un posible error de fecha, sin añadir avisos en el documento. Las limitaciones del estudio y los resultados negativos se mantienen cuando forman parte del contenido.
 
 Aplica una expresión directa tanto en documentos como en conversación. Evita los moldes de oposición retórica y las generalidades vacías. Retira las tríadas ornamentales y los ritmos mecánicos. Conserva las enumeraciones factuales completas y las citas literales.
 
@@ -47,7 +47,7 @@ Los comandos utilizan el instalador [skills de Vercel Labs](https://github.com/v
 
 ## Instalar desde el ZIP en Windows
 
-1. Descomprime `humanizar-v2.1.zip`.
+1. Descomprime `humanizar-v2.2.zip`.
 2. Copia la carpeta completa `humanizar` en `%USERPROFILE%\.agents\skills\`.
 3. Comprueba que exista `%USERPROFILE%\.agents\skills\humanizar\SKILL.md`.
 4. En Codex, abre `/skills` o escribe `$humanizar` para seleccionarla. Si aún no aparece, abre una nueva sesión.
@@ -76,7 +76,7 @@ sostenerse con la información que te comparto.
 
 - `SKILL.md`: instrucciones de la habilidad.
 - `referencias/`: reglas de redacción, investigación de respaldo, ejemplos y salida limpia.
-- `scripts/auditar_estilo.py`: revisión opcional de expresiones en `.txt` y `.md`.
+- `scripts/auditar_estilo.py`: revisión de expresiones en `.txt`, `.md` y `.docx`, con inventario de texto editable de Word.
 - `tests/`: pruebas del script y casos para revisar el comportamiento.
 - `agents/` y `assets/`: datos de presentación e icono.
 - `LICENSE.txt`: condiciones de uso del material propio del proyecto.
@@ -86,10 +86,11 @@ El auditor requiere Python 3. Desde la carpeta de la habilidad:
 ```bash
 python scripts/auditar_estilo.py borrador.md
 python scripts/auditar_estilo.py borrador.md --json
+python scripts/auditar_estilo.py informe.docx --json --inventario
 python -B -m unittest discover -s tests -v
 ```
 
-Las coincidencias del script orientan la revisión en contexto. La calidad se evalúa por precisión y utilidad, no por el número de coincidencias. Humanizar no mide autoría ni promete resultados en detectores de IA.
+El inventario registra la extracción del texto editable. Las imágenes requieren inspección visual. La lectura y la decisión editorial de cada bloque forman parte de la revisión. Las coincidencias del script orientan la revisión en contexto. La calidad se evalúa por precisión y utilidad, no por el número de coincidencias. Humanizar no mide autoría ni promete resultados en detectores de IA.
 
 ## Autoría y permisos
 

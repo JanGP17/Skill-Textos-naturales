@@ -123,6 +123,6 @@ Fuentes para consulta y verificación contextual:
 - https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 - https://guides.turnitin.com/hc/en-us/categories/28038455654861-AI-Writing
 
-## Aplicación obligatoria en v2.1
+## Aplicación obligatoria en v2.2
 
 Aplicar las reglas de expresión de SKILL.md en toda salida. Los avisos, comprobaciones y asuntos pendientes mencionados en este inventario pertenecen al análisis interno o se resuelven en el chat. Aplicar el tratamiento de consultas sin respuesta de SALIDA_LIMPIA.md. No se trasladan al documento final. Aplicar SALIDA_LIMPIA.md, incluidas las notas de figuras. Conservar los límites sustantivos pertinentes. Se mantienen las 89 entradas como inventario de consulta.

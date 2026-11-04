@@ -98,7 +98,7 @@ Leer estas observaciones como límites de atribución. Aplicar RN-12 y RN-13 al 
 
 **RN-32. No extrapolar corpus.** No trasladar listas inglesas de palabras, métricas o firmas de versiones antiguas a una tesis en español. Consultar TAXONOMIA_FORENSE_Y_EVIDENCIA.md para los límites.
 
-**RN-33. Preservar significado estadístico.** No equiparar significación estadística con importancia práctica; no añadir causalidad, tamaño del efecto o intervalos no proporcionados. Consultar en el chat cualquier cambio de conclusión sustantiva. Aplicarlo con una decisión confirmada; mientras siga sin resolver, mantener el sentido original durante la edición expresiva.
+**RN-33. Preservar significado estadístico.** No equiparar significación estadística con importancia práctica; no añadir causalidad, tamaño del efecto o intervalos no proporcionados. Consultar en el chat cualquier cambio de conclusión sustantiva. Aplicarlo con una decisión confirmada; mientras siga sin resolver, mantener el sentido factual y reformular el estilo durante la edición expresiva.
 
 **RN-34. Revisar también la propia edición.** Justificar cada proposición añadida por el original o una fuente verificada. «Más concreto» y «menos coincidencias del script» no significan más fiel. Mantener sin cambios el texto que ya funciona.
 
@@ -110,7 +110,7 @@ Leer estas observaciones como límites de atribución. Aplicar RN-12 y RN-13 al 
 
 **RN-38. No fabricar contraste ni laguna.** La confrontación bibliográfica exige fuentes reales y pertinentes; no inventar desacuerdos, novedad absoluta, anomalías o incidentes para enriquecer el argumento.
 
-## F. Regla obligatoria de salida limpia (v2.1)
+## F. Regla obligatoria de salida limpia (v2.2)
 
 **RN-39. Entregar documentos limpios.** Aplicar SALIDA_LIMPIA.md en cada entrega. Nunca trasladar comentarios del editor al cuerpo, las notas, los pies de figura, las tablas, los anexos o el cierre del documento. Tratar las dudas en el chat según SALIDA_LIMPIA.md. Conservar datos aportados mientras no exista una corrección confirmada. Omitir aclaraciones accesorias. Retirar también los residuos editoriales presentes en el original. Mantener los resultados negativos y límites sustantivos pertinentes.
 
