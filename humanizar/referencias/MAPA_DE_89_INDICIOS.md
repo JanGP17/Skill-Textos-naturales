@@ -23,11 +23,11 @@
 | 15 | Palabras comodín recurrentes | ESTILO | Reemplazar cuando son vacías, conservar términos precisos. |
 | 16 | Conectores repetitivos | ESTILO | Comprobar relación lógica antes de conservarlos. |
 | 17 | Evitar innecesariamente «ser/tener» | ESTILO | Preferir verbos directos cuando convenga. |
-| 18 | «No solo X, sino también Y» repetido | ESTILO | Reservar para doble extensión pertinente. |
-| 19 | «No es X, sino Y» mecánico | ESTILO | Conservar solo si la distinción aporta. |
-| 20 | Contrastes «Y en lugar de X» constantes | ESTILO | Evitar oposiciones falsas. |
+| 18 | «No solo X, sino también Y» repetido | ESTILO | Redactar la ampliación directamente, sin ese molde retórico. |
+| 19 | «No es X, sino Y» mecánico | ESTILO | Explicar la distinción con frases directas y datos disponibles. |
+| 20 | Contrastes «Y en lugar de X» constantes | ESTILO | Eliminar el molde de oposición; conservar la diferencia factual. |
 | 21 | Definir artificialmente el título | ESTILO | Comenzar por el asunto real, no el rótulo. |
-| 22 | Tríadas automáticas | ESTILO | Enumerar solo dimensiones justificadas. |
+| 22 | Tríadas automáticas | ESTILO | Eliminar tríadas ornamentales; preservar enumeraciones factuales completas. |
 | 23 | Mayúsculas de título excesivas | FORMATO | Revisar con normativa aplicable en skill APA. |
 | 24 | Negritas indiscriminadas | FORMATO | Revisar convención institucional. |
 | 25 | Listas de minitítulos reiterados | FORMATO | No imponer listas por efecto decorativo. |
@@ -42,20 +42,20 @@
 | 34 | «Espero que esto te ayude» | ESTILO | Eliminar interlocución ajena al género tesis. |
 | 35 | Ofrecimiento de asistencia en cierre | ESTILO | Eliminar despedida de chatbot de texto final. |
 | 36 | Instrucciones editoriales incrustadas | INTEGRIDAD | Resolverlas sin inventar datos. |
-| 37 | Advertencias didácticas rituales | ESTILO | Usar solo si aclaran limitaciones reales. |
+| 37 | Advertencias didácticas rituales | ESTILO | Retirar advertencias editoriales del entregable; conservar límites sustantivos aportados. |
 | 38 | «No hay información» sin comprobación | FONDO | Acotar alcance de búsqueda o verificar. |
-| 39 | Especulación para tapar vacíos | INTEGRIDAD | Marcar hipótesis, nunca presentarla como hecho. |
-| 40 | Reencuadre correctivo repetitivo | ESTILO | Corregir solo si se vuelve muletilla. |
+| 39 | Especulación para tapar vacíos | INTEGRIDAD | Preservar el carácter hipotético aportado; consultar en el chat los cambios de sentido. |
+| 40 | Reencuadre correctivo repetitivo | ESTILO | Formular directamente, evitando reencuadres por oposición. |
 | 41 | Negaciones preventivas reiteradas | ESTILO | Mantener matices inferenciales realmente necesarios. |
 | 42 | Aclaraciones conceptuales innecesarias | ESTILO | Reservar para ambigüedades reales. |
 | 43 | `[Nombre]` y otros marcadores | INTEGRIDAD | Requerir información; no completar arbitrariamente. |
-| 44 | Fechas/enlaces de relleno | INTEGRIDAD | No publicar como datos verificables. |
+| 44 | Fechas/enlaces de relleno | INTEGRIDAD | Evitar fechas inventadas por el asistente; conservar fechas aportadas mientras siga sin resolverse una consulta. |
 | 45 | Markdown literal de pegado | WIKI | Limpiar residuos de herramienta; formato en skill correspondiente. |
 | 46 | Marcadores de bloques de código | WIKI | Corregir residuos técnicos. |
-| 47 | Códigos internos de citas de asistente | WIKI | Recuperar la referencia válida o indicar pendiente. |
+| 47 | Códigos internos de citas de asistente | WIKI | Recuperar la referencia válida; consultar el dato ausente en el chat. |
 | 48 | Categorías inexistentes | WIKI | Específico de Wikipedia. |
 | 49 | Plantillas de plataforma inexistentes | WIKI | Específico de Wikipedia. |
-| 50 | Enlaces bibliográficos inventados | INTEGRIDAD | Confirmar existencia o marcar sin verificar. |
+| 50 | Enlaces bibliográficos inventados | INTEGRIDAD | Comprobar cuando el encargo lo requiera; comunicar dudas en el chat sin etiquetar el entregable. |
 | 51 | DOI que no resuelven | INTEGRIDAD | Verificar identificación de la obra. |
 | 52 | ISBN inválido | INTEGRIDAD | Comprobar con editor/catálogo. |
 | 53 | DOI real de obra equivocada | INTEGRIDAD | Verificar metadatos completos. |
@@ -123,6 +123,6 @@ Fuentes para consulta y verificación contextual:
 - https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 - https://guides.turnitin.com/hc/en-us/categories/28038455654861-AI-Writing
 
-## Aplicación obligatoria en v2.0
+## Aplicación obligatoria en v2.1
 
-Los avisos, comprobaciones y asuntos pendientes mencionados en este inventario pertenecen al análisis interno o se resuelven en el chat. No se trasladan al documento final. Aplicar SALIDA_LIMPIA.md, incluidas las notas de figuras. Conservar los límites sustantivos pertinentes. Se mantienen las 89 entradas como inventario de consulta.
+Aplicar las reglas de expresión de SKILL.md en toda salida. Los avisos, comprobaciones y asuntos pendientes mencionados en este inventario pertenecen al análisis interno o se resuelven en el chat. Aplicar el tratamiento de consultas sin respuesta de SALIDA_LIMPIA.md. No se trasladan al documento final. Aplicar SALIDA_LIMPIA.md, incluidas las notas de figuras. Conservar los límites sustantivos pertinentes. Se mantienen las 89 entradas como inventario de consulta.

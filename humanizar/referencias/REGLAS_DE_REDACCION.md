@@ -4,11 +4,11 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 ## A. Reglas obligatorias (integridad y contenido)
 
-**RN-01. Preservar hechos.** No modificar nombres, magnitudes, unidades, periodos, tamaño de muestra, diseños, resultados ni la atribución de una afirmación. Si la evidencia contradice un párrafo, informar del conflicto.
+**RN-01. Preservar hechos.** No modificar nombres, magnitudes, unidades, periodos, tamaño de muestra, diseños, resultados ni la atribución de una afirmación. Si la evidencia contradice un párrafo, informar del conflicto en el chat cuando se solicite auditoría o se necesite una decisión. Aplicar SALIDA_LIMPIA.md para conservar datos aportados mientras la consulta siga sin resolver.
 
 **RN-02. No fabricar metodología.** Evitar fingir fallos de campo, decisiones emergentes, experiencias personales, entrevistas, revisión de fuentes o ejecución de sistemas. Solo describir acontecimientos documentados.
 
-**RN-03. No inventar citas ni fuentes.** Nunca crear un DOI, autor, título, número de página o bibliografía para que el texto parezca riguroso. Las dudas se marcan y comprueban externamente cuando se dispone de fuentes.
+**RN-03. No inventar citas ni fuentes.** Nunca crear un DOI, autor, título, número de página o bibliografía para que el texto parezca riguroso. Registrar las dudas internamente. Consultar en el chat cuando afecten al encargo. Comprobar externamente cuando se solicite esa revisión; mantener las marcas de duda fuera del entregable.
 
 **RN-04. Diferenciar datos y argumentos.** Identificar observaciones, inferencias y explicaciones tentativas. No afirmar causalidad por una asociación estadística; no atribuir una explicación a una entrevista no suministrada.
 
@@ -20,7 +20,7 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 **RN-08. Mantener delimitaciones.** No transformar un procedimiento previsto en uno ejecutado; ni resultados simulados en observaciones empíricas.
 
-## B. Reglas de estilo de aplicación contextual
+## B. Reglas de expresión para documentos y conversación
 
 **RN-09. Quitar «importancia» ornamental.** «Es de vital importancia señalar» suele poder omitirse. Si la importancia es real, explicar *para qué, en qué contexto, respecto a qué evidencia*.
 
@@ -28,11 +28,11 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 **RN-11. Evitar transiciones por plantilla.** «En este sentido», «por otra parte», «cabe destacar», «aunado a ello», «en conclusión» necesitan una relación discursiva identificable. Si no la hay, eliminar o reconstruir la conexión.
 
-**RN-12. No abusar del contraste.** «No solo X, sino también Y» y «no es X, sino Y» se usan cuando la oposición corrige o diferencia algo real. No como ritmo obligatorio de los párrafos.
+**RN-12. Formular directamente.** Eliminar moldes de oposición retórica, incluidos «no es X, sino Y», «X, no Y» y «no solo X, sino también Y». Explicar las diferencias documentadas con frases directas. Aplicar también en el chat. Mantener intactas las citas literales.
 
-**RN-13. Tríadas solo si son analíticas.** «Eficiencia, calidad e innovación» puede resultar hueco. Enumerar tres categorías es válido si están definidas y son necesarias.
+**RN-13. Eliminar tríadas ornamentales.** Evitar series de tres adjetivos o beneficios creadas para dar cadencia. Conservar completas las categorías o enumeraciones factuales aportadas, incluido su número real de elementos. Aplicar también en el chat.
 
-**RN-14. Sustituir generalidad por información.** «La tecnología juega un papel importante en la educación» exige contexto, mecanismo o datos. No inventar datos para mejorarla: marcar la información que falta.
+**RN-14. Sustituir generalidad por información.** «La tecnología juega un papel importante en la educación» exige contexto, mecanismo o datos. Usar solo detalles disponibles. Si se necesita concreción adicional, consultarla en el chat. Durante una edición expresiva sin respuesta, conservar el alcance original; omitir marcadores en el texto.
 
 **RN-15. Usar verbos claros.** Preferir «se midió» frente a «se procedió a llevar a cabo la medición», salvo requerimientos técnicos precisos.
 
@@ -44,11 +44,11 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 **RN-19. Restringir lenguaje publicitario.** «Solución revolucionaria», «amplia gama», «experiencia enriquecedora» o «vanguardia tecnológica» no sirven como evidencia científica.
 
-**RN-20. Variar sintaxis por comprensión.** La combinación de oraciones breves y extensas debe obedecer a relaciones de ideas, no a un patrón artificial.
+**RN-20. Variar sintaxis por comprensión.** Dar a cada idea la extensión necesaria. Evitar alternancias prefijadas, párrafos simétricos y cierres repetidos tanto en documentos como en el chat.
 
 **RN-21. Repetir términos técnicos cuando haga falta.** Evitar cambios innecesarios de «variable independiente», «instrumento», «VLAN», «latencia», etc. por sinónimos que puedan alterar el significado.
 
-**RN-22. No prohibir puntuación legítima.** El guion largo, dos puntos, paréntesis y comillas son recursos normales. Solo advertir uso repetitivo o confuso.
+**RN-22. No prohibir puntuación legítima.** El guion largo, dos puntos, paréntesis y comillas son recursos normales. Corregir el uso repetitivo o confuso. Comunicar la observación en el chat únicamente si se pidió auditoría.
 
 **RN-23. No imponer tono de chatbot.** Eliminar «Espero que te sea útil», «Puedo ampliar» o advertencias al lector cuando el texto es un capítulo académico.
 
@@ -60,7 +60,7 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 **RN-27. Evitar simetría artificial.** Párrafos no necesitan la misma extensión, una lista de tres elementos ni estructura «definición → beneficio → conclusión» repetida.
 
-**RN-28. No incorporar marcas de edición.** Limpiar placeholders y comentarios de asistente **solo después** de resolver su contenido. Si falta un dato esencial, consultarlo en el chat antes de finalizar el fragmento. No dejar notas o marcadores en el documento final.
+**RN-28. No incorporar marcas de edición.** Retirar placeholders y comentarios del asistente de todo entregable. Resolver las consultas en el chat siguiendo SALIDA_LIMPIA.md: conservar los datos aportados si no hay respuesta y abstenerse de inventar contenido nuevo.
 
 ## C. Reglas por sección de tesis
 
@@ -78,7 +78,9 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 **Conclusiones**: responder objetivos con los datos reales, sin reintroducir literatura genérica ni agregar logros ajenos al estudio.
 
-## D. Antiejemplos que no deben convertirse en reglas universales
+## D. Observaciones sobre atribución de autoría
+
+Leer estas observaciones como límites de atribución. Aplicar RN-12 y RN-13 al redactar; las observaciones siguientes no autorizan moldes de oposición ni tríadas ornamentales.
 
 - Un párrafo breve y elegante **no** es automáticamente IA.
 - El uso de **guiones largos** o «no solo… sino también» no prueba procedencia.
@@ -88,15 +90,15 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 ## E. Trazabilidad y límites de la revisión
 
-**RN-29. No confundir ausencia con falsedad.** Registrar fuente no aportada, no localizada, inaccesible, contradictoria o fabricación comprobada como estados distintos. Un DOI que no resuelve puede tener un error de transcripción; comprobar metadatos antes de concluir.
+**RN-29. No confundir ausencia con falsedad.** Registrar internamente fuente no aportada, no localizada, inaccesible, contradictoria o fabricación comprobada como estados distintos. Comunicar el diagnóstico en el chat cuando se solicite auditoría; mantener esas etiquetas fuera de la prosa revisada. Un DOI que no resuelve puede tener un error de transcripción; comprobar metadatos antes de concluir.
 
-**RN-30. No añadir proposiciones por plausibilidad.** Una función habitual de una plataforma no está acreditada para el sistema estudiado. Al concretar, usar solo información disponible; si falta, pedirla o dejar la observación aparte.
+**RN-30. No añadir proposiciones por plausibilidad.** Una función habitual de una plataforma no está acreditada para el sistema estudiado. Al concretar, usar solo información disponible; si falta y resulta indispensable, preguntar en el chat. Mientras siga ausente, mantener el alcance disponible y omitir cualquier afirmación nueva que dependa de ella.
 
 **RN-31. Conservar la voz sin atribuir autoría.** Comparar muestras del mismo género e idioma cuando estén disponibles. Los cambios de registro pueden deberse a coautoría, traducción o revisión; no diagnosticar IA por discontinuidad.
 
 **RN-32. No extrapolar corpus.** No trasladar listas inglesas de palabras, métricas o firmas de versiones antiguas a una tesis en español. Consultar TAXONOMIA_FORENSE_Y_EVIDENCIA.md para los límites.
 
-**RN-33. Preservar significado estadístico.** No equiparar significación estadística con importancia práctica; no añadir causalidad, tamaño del efecto o intervalos no proporcionados. Si se cambia una conclusión sustantiva, separarla de la edición de estilo y justificarla.
+**RN-33. Preservar significado estadístico.** No equiparar significación estadística con importancia práctica; no añadir causalidad, tamaño del efecto o intervalos no proporcionados. Consultar en el chat cualquier cambio de conclusión sustantiva. Aplicarlo con una decisión confirmada; mientras siga sin resolver, mantener el sentido original durante la edición expresiva.
 
 **RN-34. Revisar también la propia edición.** Justificar cada proposición añadida por el original o una fuente verificada. «Más concreto» y «menos coincidencias del script» no significan más fiel. Mantener sin cambios el texto que ya funciona.
 
@@ -108,8 +110,8 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 **RN-38. No fabricar contraste ni laguna.** La confrontación bibliográfica exige fuentes reales y pertinentes; no inventar desacuerdos, novedad absoluta, anomalías o incidentes para enriquecer el argumento.
 
-## F. Regla obligatoria de salida limpia (v2.0)
+## F. Regla obligatoria de salida limpia (v2.1)
 
-**RN-39. Entregar documentos limpios.** Aplicar SALIDA_LIMPIA.md en cada entrega. Nunca trasladar comentarios del editor al cuerpo, las notas, los pies de figura, las tablas, los anexos o el cierre del documento. Resolver las dudas esenciales en el chat y omitir aclaraciones accesorias. Mantener los resultados negativos y límites sustantivos pertinentes.
+**RN-39. Entregar documentos limpios.** Aplicar SALIDA_LIMPIA.md en cada entrega. Nunca trasladar comentarios del editor al cuerpo, las notas, los pies de figura, las tablas, los anexos o el cierre del documento. Tratar las dudas en el chat según SALIDA_LIMPIA.md. Conservar datos aportados mientras no exista una corrección confirmada. Omitir aclaraciones accesorias. Retirar también los residuos editoriales presentes en el original. Mantener los resultados negativos y límites sustantivos pertinentes.
 
 **RN-40. Revisar la voz del autor.** Evitar que «el texto afirma», «según la información aportada» o cierres explicativos sustituyan la redacción propia del documento. Usar esas construcciones únicamente si su objeto real es analizar un texto o una fuente.

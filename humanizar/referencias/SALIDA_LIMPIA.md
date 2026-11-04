@@ -1,60 +1,84 @@
-# Regla obligatoria de salida limpia · Humanizar 2.0
+# Contrato de salida limpia · Humanizar 2.1
 
-Leer al redactar o revisar cualquier texto destinado a copiarse, publicarse o incorporarse a un documento. Aplicar a todo el contenido final: cuerpo, títulos, pies de figura, notas, tablas, anexos y cierres.
+Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 
-## 1. Regla de prioridad editorial
+## 1. Definir el canal de cada intervención
 
-Entregar solo contenido destinado al lector del texto. Nunca insertar en el documento comentarios del asistente, explicaciones del proceso de edición, advertencias de verificación ni aclaraciones accesorias sobre lo que no se conoce, no se ve o no se encontró. No trasladarlas a una nota al pie, un anexo o el final del archivo para eludir esta regla.
+| Intervención | Destino obligatorio |
+|---|---|
+| Redacción solicitada para su lector | Texto encargado, con voz del autor |
+| Pregunta para resolver un dato o una decisión editorial | Conversación de chat |
+| Diagnóstico de una auditoría solicitada | Conversación de chat, separado del texto encargado |
+| Informe de auditoría expresamente encargado | Archivo independiente con los hallazgos que constituyen su tema; consultas editoriales en el chat |
+| Revisión interna o comprobación rutinaria | Análisis interno, sin convertirlo en una nota para el lector |
 
-La regla es obligatoria en cada entrega y funciona junto con la fidelidad factual: una salida limpia debe ser también exacta. No inventar información para evitar consultar ni convertir una posibilidad en un hecho.
+Tratar como texto encargado un mensaje de bienvenida, un párrafo o un pie de figura entregado directamente en el chat. La ubicación de la respuesta no autoriza a mezclar comentarios del asistente con la redacción.
 
-## 2. Resolver antes de redactar
+## 2. Aplicar la decisión correspondiente
 
-- **Dato suficiente:** redactar directamente y terminar cuando el contenido esté completo. No añadir un párrafo de aclaración o una despedida de asistente.
-- **Duda accesoria:** omitir la observación y redactar lo que corresponde al propósito. No consultar por cada detalle que una captura no demuestra.
-- **Dato esencial ausente o contradictorio:** formular una pregunta concreta en el chat antes de cerrar el fragmento afectado. Esperar la respuesta para resolverlo. Continuar trabajo independiente cuando sea posible; no entregar ese fragmento como definitivo ni rellenarlo con notas o marcadores.
-- **Información evidente y pertinente:** expresarla con naturalidad sin justificar que resulta visible o que se deduce del material. No suponer hechos ocultos, como un guardado exitoso, a partir de una interfaz de edición.
+| Situación | Acción concreta | Tratamiento del entregable |
+|---|---|---|
+| Información suficiente | Redactar y terminar | Contenido solicitado |
+| Duda accesoria | Omitir la observación | Conservar la descripción pertinente |
+| Error aparente en un dato aportado | Consultar una vez en el chat si afecta al encargo | Mantener el dato hasta recibir una corrección confirmada |
+| Consulta sobre un dato aportado sin respuesta o sin solución | Continuar la edición expresiva | Conservar el original, incluido el posible error; omitir etiquetas y advertencias |
+| Dato indispensable para una afirmación nueva ausente | Preguntar en el chat y avanzar con el contenido disponible | Abstenerse de añadir la afirmación nueva mientras falte su dato |
+| Corrección confirmada por el autor o por una comprobación encargada y concluyente | Aplicar la corrección | Usar el dato resuelto sin relato editorial del cambio |
+| Inferencia sustantiva cuestionable en el original | Consultar el cambio de sentido en el chat | Mantener el original si la decisión queda sin resolver durante una edición expresiva |
 
-Una comprobación interna no tiene que convertirse en una frase del documento. La comprobación sirve para decidir qué afirmar con precisión.
+Usar el texto aportado como base de trabajo. Reservar la comprobación externa para el encargo que la requiera. Preservar un dato original no lo convierte en comprobado externamente. Evitar preguntas repetidas sobre una incidencia ya consultada sin respuesta.
 
-## 3. Separar conversación, auditoría y texto final
+Nunca inventar un reemplazo, corregir arbitrariamente una fecha ni introducir errores para parecer humano. La conservación de un error preexistente responde a la fidelidad editorial solicitada.
 
-En el chat pueden resolverse dudas y comentarse cambios cuando el usuario lo pida o una decisión lo requiera. Mantener esas intervenciones fuera del texto listo para usar y fuera de los archivos finales. La simple petición «humaniza» implica entregar la versión limpia por defecto; no exige que el usuario añada «sin aclaraciones».
+## 3. Mantener el documento con voz del autor
 
-Si se solicita expresamente una auditoría, ofrecer diagnóstico y recomendaciones en el chat, diferenciados de la redacción final. Crear un informe de auditoría o una versión comentada solo cuando sea parte explícita del encargo; ese informe tiene una finalidad distinta del documento revisado. No convertir la auditoría en un apéndice automático de una entrega de redacción.
+Excluir comentarios del asistente sobre acceso a fuentes, falta de comprobación o decisiones editoriales pendientes. Retirarlos del cuerpo y de los elementos periféricos. Evitar moverlos a un cierre, nota o anexo.
 
-## 4. Reconocer intrusiones editoriales por su función
+Reconocer la función de la frase: «la captura no permite saber si…», «fecha inválida», «requiere verificación», «no se ha podido confirmar», «según la información proporcionada» y «no acredita por sí solo» suelen introducir la revisión del asistente en el documento. Ante una intrusión de ese tipo, retirarla; evitar conservarla mediante una paráfrasis.
 
-Buscar frases que hablan del acceso o del trabajo del asistente, de datos no entregados o de decisiones pendientes, en lugar de desarrollar el tema. Ejemplos: «la captura no permite saber si…», «no se ha podido verificar…», «con la información proporcionada…», «fuente no aportada», «pendiente de sustento», «se recomienda confirmar…» o «este texto conserva…».
+Usar atribuciones a fuentes cuando forman parte de la argumentación real. Evitar anteponer «la fuente informa» a cada dato conservado. Preservar los estados sustantivos aportados, como «prueba no ejecutada» o «micrositio parcialmente implementado», cuando describen el objeto del informe. Retirar las advertencias que relativizan cada evidencia, aunque ya estén en el texto recibido.
 
-Son ejemplos contextuales, no palabras universalmente prohibidas. Si se está escribiendo un informe de auditoría solicitado, algunas pueden cumplir su finalidad. En el documento revisado, resolver su necesidad antes de entregar; no sustituirlas por sinónimos para conservar el mismo comentario.
+### Clasificar antes de preservar
 
-## 5. Preservar contenido sustantivo
+La conservación del original protege los datos y el argumento del autor. Identificar primero los comentarios editoriales incrustados por una revisión anterior y retirarlos. Su presencia en el original no los convierte en contenido obligatorio.
 
-Conservar negaciones técnicas, resultados negativos, incertidumbre científica, contraejemplos y limitaciones del estudio que sean parte pertinente de lo que se comunica. Por ejemplo, «no se encontraron diferencias estadísticamente significativas» puede ser un resultado central. No borrarlo por contener una negación.
+| Frase recibida | Función | Acción en el entregable |
+|---|---|---|
+| «Pruebas de integración no ejecutadas» | Estado técnico aportado | Conservar |
+| «Micrositio parcialmente implementado» | Estado del producto | Conservar |
+| «35/10/2026» | Dato aportado con posible error | Conservar mientras no exista corrección confirmada |
+| «La fecha requiere verificación» | Advertencia editorial | Retirar |
+| «Estos resultados no modifican el estado informado al 27 de octubre», añadido para justificar fechas incompletas | Reserva editorial sobre el alcance de la evidencia | Retirar; consultar en el chat la decisión de alcance si resulta necesaria |
+| «Los archivos versionados no acreditan la entrega técnica final» | Advertencia sobre suficiencia documental | Retirar del anexo descriptivo; tratar la decisión en el chat |
+| «El vídeo no acredita por sí solo el estado actual» | Reserva editorial sobre una evidencia | Retirar de la descripción del producto |
+| «No se encontraron diferencias estadísticamente significativas» | Resultado del estudio | Conservar |
 
-Expresar los límites pertinentes de forma integrada y proporcional. No añadir por costumbre una explicación defensiva a cada hallazgo. Cuando falta un dato esencial para redactar correctamente ese límite, consultarlo en el chat.
+En una evaluación técnica cuyo encargo expreso sea determinar cumplimiento o aceptación, comunicar los hallazgos de ese objeto con el respaldo disponible. Mantener las consultas del editor en el chat. Evitar aplicar esa finalidad a un anexo descriptivo por iniciativa propia.
 
-Mantener las citas, fuentes de figuras y notas de contenido necesarias. La palabra «Nota» no implica un problema: lo determina la función de lo que contiene. La presentación APA corresponde a la habilidad respectiva.
+Conservar los resultados negativos y las limitaciones científicas que pertenecen al estudio. Ejemplo: «No se encontraron diferencias estadísticamente significativas». Mantener las citas literales y las fuentes de figuras. Evaluar cada nota por su función.
 
-## 6. Caso de referencia: pie de figura de editor visual
+## 4. Aplicar el estilo también a la conversación
 
-**Encargo:** describir una captura de la página de Historia con un panel lateral para editar la introducción; actividad A13.
+Formular directamente lo que se quiere decir. Evitar moldes de oposición retórica y generalidades vacías. Retirar tríadas ornamentales. Conservar enumeraciones factuales completas. Desarrollar cada intervención con la extensión que requiera, sin ritmos simétricos impuestos.
 
-**Salida final:** «El editor visual muestra el bloque de introducción de la página de Historia y el panel lateral para modificar su contenido. Actividad A13.»
+En una auditoría solicitada, describir la incidencia concreta y la decisión que requiere. Evitar convertir cada comentario en una advertencia sobre las capacidades del asistente. Cuando solo se pide humanizar, entregar la versión limpia por defecto.
 
-**Control interno:** el guardado no forma parte de lo que se describe. No añadir «La captura no permite saber si se guardaron cambios». Tampoco afirmar que los cambios fueron guardados.
+## 5. Casos de referencia
 
-**Encargo diferente:** afirmar si se guardaron los cambios basándose únicamente en esa captura.
+**Fecha aportada:** «La prueba se ejecutó el 35/10/2026».
 
-**Acción:** preguntar en el chat «¿Se guardaron los cambios después de editar la introducción?». No incorporar la pregunta ni una advertencia al pie de figura.
+**Consulta de chat si corresponde:** «¿Qué fecha debe figurar en lugar de 35/10/2026?».
 
-## 7. Comprobación obligatoria antes de entregar
+**Versión final mientras la consulta queda sin respuesta:** «La prueba se ejecutó el 35/10/2026».
 
-1. Revisar cada párrafo, nota y cierre: ¿pertenece al tema y a la intención del autor o comenta cómo se elaboró el texto?
-2. Retirar comentarios editoriales accesorios y marcas de pendiente. Resolver en el chat los datos indispensables antes de finalizar la parte afectada.
-3. Verificar que la limpieza no haya alterado hechos, citas, resultados negativos ni límites sustantivos.
-4. Leer con la voz del autor: conservar su persona gramatical y grado de formalidad cuando sean adecuados. Evitar «el texto plantea» o «según lo proporcionado» como sustitutos automáticos de una redacción propia.
-5. Terminar al completar el encargo. No añadir aclaraciones finales, garantías de calidad, ofrecimientos de ayuda ni explicaciones de cambios por costumbre.
+Omitir «fecha inválida», `[sic]`, avisos en la celda y notas explicativas. Evitar elegir otro día por plausibilidad.
 
-Si detectas una intrusión editorial, corregirla antes de entregar. No declarar «texto final limpio» cuando todavía contiene ese problema. Este control es una obligación de procedimiento de la skill, no una garantía estadística sobre el comportamiento del modelo.
+**Pie de figura A13:** «El editor visual muestra el bloque de introducción de la página de Historia y el panel lateral para modificar su contenido. Actividad A13».
+
+Terminar ahí. Si se pide afirmar que los cambios se guardaron y ese dato está ausente, preguntar en el chat. Mientras falte la respuesta, mantener la descripción de la edición sin añadir una afirmación de guardado.
+
+## 6. Comprobar antes de entregar
+
+Leer el entregable completo desde la voz del autor. Buscar intrusiones editoriales también en encabezados de tablas, celdas y pies. Cotejar fechas y cifras con el original o con las correcciones confirmadas. Confirmar que los resultados negativos siguen presentes. Revisar las reglas de expresión tanto en el texto encargado como en la conversación adjunta.
+
+Terminar cuando el contenido esté completo. Evitar despedidas, garantías de calidad y explicaciones automáticas sobre la revisión.

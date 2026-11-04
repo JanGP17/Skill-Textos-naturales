@@ -1,5 +1,8 @@
 # Taxonomía multicapas y evidencia para Humanizar
 
+Usar este archivo como investigación de respaldo. Aplicar SKILL.md y SALIDA_LIMPIA.md al producir texto encargado o comentarios de chat. Las descripciones históricas de recursos lingüísticos no autorizan su uso contra esas instrucciones.
+
+
 Consulta: 26 de octubre de 2026. Objetivo: orientar edición académica y profesional en español sin inventar contenido. Este recurso no implementa detección ni atribución de autoría.
 
 ## Contenido
@@ -89,11 +92,11 @@ Esta tabla traduce preguntas editoriales en acciones; no es un detector derivado
 |---|---|---|---|
 | Léxica y semántica | Comodines, elogios, sinónimos que desplazan el concepto | La frase oculta el objeto o promete más de lo demostrado | Términos disciplinares, unidades y sentido técnico de «significativo» |
 | Morfosintáctica | Nominalizaciones, pasivas encadenadas, referentes ambiguos, subordinación difícil | Cuesta identificar agente, acción o relación | Pasiva e impersonal válidas; no imponer primera persona |
-| Discursiva | Conectores sin relación, estructura repetida, conclusiones rituales | La organización repite o falsea el razonamiento | Contrastes, listas y tríadas que sí organizan categorías reales |
+| Discursiva | Conectores sin relación, estructura repetida, conclusiones rituales | La organización repite o falsea el razonamiento | Comparaciones documentadas y enumeraciones factuales completas; aplicar las reglas de expresión de SKILL.md |
 | Argumentativa | Consenso sin fuentes, salto causal, citas aditivas, explicación sin dato | La conclusión excede premisas o evidencia | Grado de certeza y alcance; pedir el respaldo ausente |
 | Voz y consistencia | Cambio terminológico, registro desigual, pérdida de voz | Hay incoherencia que afecta comprensión | Coautoría, traducción y secciones con funciones distintas pueden explicarlo |
 | Residuos de herramienta | Interlocución del asistente, placeholders, códigos de cita | Son ajenos al género del documento final | Citas textuales, ejemplos analizados, código e identificadores legítimos |
-| Procedencia y verificación | Fuente no aportada, enlace roto, metadatos discordantes | Debe comprobarse una atribución factual | No localizado no significa fabricado; conservar versiones y dudas explícitas |
+| Procedencia y verificación | Fuente no aportada, enlace roto, metadatos discordantes | Debe comprobarse una atribución factual | No localizado no significa fabricado; conservar versiones y registrar las dudas internamente; comunicarlas en el chat cuando corresponda |
 | Descripción cuantitativa | Longitud, reiteración o distribución de rasgos | Ayuda a localizar un problema que puede explicarse | No fijar porcentajes óptimos ni inferir autoría |
 
 Para cada intervención: identificar fragmento, problema concreto, evidencia disponible, cambio mínimo y comprobación de significado. Si no existe un problema comunicativo o factual, conservar el texto aunque aparezca un patrón del inventario.

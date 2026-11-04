@@ -2,6 +2,8 @@
 
 Reglas operativas de Humanizar. No constituyen una prueba de autoría ni revelan las características internas de Turnitin. Leer al redactar desde cero y al revisar las seis señales difundidas sobre escritura de IA.
 
+Aplicar el contrato de SALIDA_LIMPIA.md en toda entrega. Mantener las consultas y los diagnósticos solicitados en el chat. Conservar los datos aportados cuando una consulta siga sin resolver; abstenerse de introducir datos nuevos sin respaldo.
+
 ## Contenido
 
 1. Redactar desde cero
@@ -15,13 +17,13 @@ Reglas operativas de Humanizar. No constituyen una prueba de autoría ni revelan
 
 Aplicar el mismo estándar de fidelidad al generar y al editar. No limitarse a reparar un texto después de producirlo.
 
-1. **Delimitar el encargo.** Reconocer sección, propósito, audiencia y extensión solicitada. Usar el contexto disponible antes de preguntar. Si falta un dato indispensable para sostener el contenido, pedirlo; avanzar con las partes independientes.
+1. **Delimitar el encargo.** Reconocer sección, propósito, audiencia y extensión solicitada. Usar el contexto disponible antes de preguntar. Si falta un dato indispensable para una afirmación nueva, pedirlo en el chat y avanzar con el contenido disponible. Para incidencias en datos aportados, aplicar SALIDA_LIMPIA.md.
 2. **Inventariar el respaldo.** Separar datos suministrados, fuentes efectivamente consultadas, inferencias justificables y asuntos pendientes. Conservar números, unidades, nombres, cronología, alcance y grado de certeza.
 3. **Esbozar el argumento.** Definir qué aporta cada párrafo a la pregunta u objetivo. Elegir el orden que permita comprender la idea, sin imponer introducción solemne, tres beneficios y cierre de futuro a todo fragmento.
 4. **Redactar con precisión.** Nombrar objetos y acciones documentados; mantener términos disciplinares. Usar conectores solo si explican la relación entre las ideas. Preferir construcciones directas sin empobrecer el razonamiento.
-5. **Examinar las seis señales.** Revisar su función, no solo su presencia. Eliminar automatismos que no aporten y conservar recursos legítimos. Una lista de tres elementos puede responder a tres dimensiones reales; no crear una cuarta para parecer menos mecánico.
-6. **Cotejar cada proposición.** Confirmar de dónde procede una función del software, una limitación del trabajo de campo, una comparación bibliográfica o una conclusión. Eliminar agregados plausibles sin respaldo. Si una información es necesaria pero falta, señalarlo aparte.
-7. **Entregar texto limpio por defecto.** Aplicar SALIDA_LIMPIA.md. Consultar en el chat los datos esenciales antes de finalizar la parte afectada. Omitir observaciones accesorias y no insertar notas de elaboración, marcadores ni cierres aclaratorios en el documento.
+5. **Examinar las seis señales.** Eliminar oposición retórica, generalidades vacías y tríadas ornamentales. Evitar ritmos mecánicos tanto en el entregable como en el chat. Conservar categorías factuales completas y citas literales.
+6. **Cotejar cada proposición.** Confirmar de dónde procede una función del software, una limitación del trabajo de campo, una comparación bibliográfica o una conclusión. Eliminar agregados plausibles sin respaldo. Si falta información indispensable para una afirmación nueva, consultarla en el chat. Mantener el alcance disponible mientras falte su respuesta; evitar marcadores en el entregable.
+7. **Entregar texto limpio por defecto.** Aplicar SALIDA_LIMPIA.md. Aplicar el tratamiento de consultas sin respuesta de SALIDA_LIMPIA.md. Omitir observaciones accesorias y no insertar notas de elaboración, marcadores ni cierres aclaratorios en el documento.
 
 No asignar rasgos de voz al autor cuando no existen muestras. Conservar el registro que pide el género; hablar y escribir una tesis permiten vocabularios distintos. No introducir coloquialismos, errores, vivencias o dudas teatrales para simular humanidad.
 
@@ -33,12 +35,12 @@ Las seis formulaciones proceden del material suministrado por el usuario. La tab
 |---|---|---|---|
 | Rayas o guiones largos frecuentes | Incisos que interrumpen el argumento; énfasis de publicidad | No insertar rayas por hábito. Si el inciso dificulta leer, integrarlo o dividir la oración | Conservar una aclaración útil; no modificar citas ni imponer una prohibición tipográfica |
 | Palabras que el autor no usaría al hablar | Léxico ornamental, conceptos empleados sin comprenderlos, pérdida de voz | Elegir el término más preciso y comprensible; explicar tecnicismos cuando la audiencia lo requiera | El vocabulario académico no necesita coincidir con el coloquial. No sustituir un término técnico por una palabra menos exacta |
-| «No es X, sino Y» repetido | Contrastes falsos, obvios o usados como eslogan | Formular directamente la afirmación cuando la oposición no aporta; conservar la distinción que corrige una confusión real | Evaluar la función en el párrafo y la repetición en el documento; sin un umbral universal de cinco apariciones |
-| Tríadas forzadas | Acumulación de adjetivos o categorías sin análisis | Enumerar únicamente los elementos necesarios y documentados, sean dos, tres o más | Mantener tres dimensiones, etapas o propiedades cuando son reales y pertinentes |
+| «No es X, sino Y» repetido | Contrastes falsos, obvios o usados como eslogan | Formular directamente la afirmación. Explicar diferencias reales con sus datos, sin moldes de oposición retórica | Aplicar en documentos y conversación; respetar citas literales |
+| Tríadas forzadas | Acumulación de adjetivos o categorías sin análisis | Eliminar las series ornamentales de tres adjetivos o beneficios; conservar enumeraciones factuales completas | Mantener tres dimensiones, etapas o propiedades cuando son reales y pertinentes |
 | Frases extensas sin contenido | Prefacios ceremoniales, paráfrasis redundantes, relevancia proclamada | Exigir una aportación identificable: precisar, explicar, demostrar, delimitar o conectar | No inventar datos para aumentar densidad. También puede aportar una definición o explicación sin cifras |
-| «Todo demasiado perfecto» | Uniformidad mecánica, aplanamiento de voz, desaparición de límites | Ajustar el ritmo al razonamiento y preservar incertidumbres reales; editar lo mínimo necesario | Gramática correcta y tono consistente son deseables. No añadir errores ni fabricar conflictos o anomalías |
+| «Todo demasiado perfecto» | Uniformidad mecánica, aplanamiento de voz, desaparición de límites | Dar a cada idea su extensión necesaria; evitar párrafos simétricos y cierres repetidos; preservar incertidumbres reales | Gramática correcta y tono consistente son deseables. No añadir errores ni fabricar conflictos o anomalías |
 
-**Regla transversal:** prohibir la automatización vacía y la invención; evaluar de forma contextual la puntuación, las enumeraciones, los contrastes y la complejidad. Si el usuario impone una preferencia concreta de estilo, aplicarla donde sea compatible con citas textuales y significado, sin presentarla como regla científica.
+**Regla transversal:** aplicar las preferencias de expresión de SKILL.md también en la conversación. Mantener las citas literales y las categorías factuales completas. Tratar estas preferencias como instrucciones editoriales del usuario.
 
 ## 3. Auditar las comparaciones humano/IA
 
@@ -88,7 +90,7 @@ El fragmento presentado por el usuario como «redacción humana» combina una re
 
 Si solo se aporta el coeficiente y el valor p como datos del estudio, puede redactarse: «Se observó una correlación positiva (r = 0.34, p < .05)». Confirmar cuáles son las variables antes de nombrarlas. Esta formulación no agrega causalidad, relevancia práctica ni entrevistas.
 
-No conservar «esta discrepancia se explica» como hecho cuando solo existe una explicación plausible. Resolver el ajuste sustantivo y su justificación en el chat antes de cerrar el fragmento; no atribuir a una fuente lo que no se ha leído.
+Evitar añadir «esta discrepancia se explica» cuando solo existe una explicación plausible. Si la frase está en el original, consultar el cambio sustantivo en el chat. Conservarla en una edición expresiva mientras no se resuelva la decisión, siguiendo SALIDA_LIMPIA.md; mantener el diagnóstico fuera del entregable.
 
 ## 5. Comprobar cobertura y entregar
 
@@ -105,7 +107,7 @@ La síntesis histórica de 89 asuntos se conserva en MAPA_DE_89_INDICIOS.md. Con
 
 ## 6. Coherencia transversal y desarrollo del argumento
 
-Aplicar cuando se disponga de varias secciones o un documento completo. Con un fragmento aislado, evaluar solo lo visible e indicar qué relación necesita contexto. Esta matriz amplía la revisión; no impone títulos ni formato APA.
+Aplicar cuando se disponga de varias secciones o un documento completo. Con un fragmento aislado, evaluar solo lo disponible. Pedir contexto en el chat cuando una decisión lo requiera. Usar la matriz para el análisis interno. Comunicar sus hallazgos en el chat cuando se solicite auditoría; aplicar SALIDA_LIMPIA.md al editar el texto. Esta matriz amplía la revisión; no impone títulos ni formato APA.
 
 | Relación | Pregunta de control | Mejora que puede proponerse |
 |---|---|---|
@@ -129,6 +131,6 @@ Elegir el recurso que resuelva la necesidad del párrafo; no aplicarlos todos co
 
 ### Criterios de entrega profesional
 
-Considerar el fragmento listo para usar cuando expresa su aportación con claridad, preserva los hechos y el grado de certeza, mantiene referentes y terminología consistentes y no contiene pendientes esenciales ocultos. No exigir que todos los párrafos contengan cifras, citas o una conclusión.
+Considerar el fragmento listo para usar cuando expresa su aportación con claridad, preserva los hechos y el grado de certeza, mantiene referentes y terminología consistentes y aplica el tratamiento de incidencias de SALIDA_LIMPIA.md. No exigir que todos los párrafos contengan cifras, citas o una conclusión.
 
 En una auditoría completa solicitada, resumir mejoras y pendientes en el chat o en el informe de auditoría encargado. No añadir ese resumen al documento revisado. En una edición breve, evitar explicar controles que no aportan al encargo. Estas son reglas operativas de calidad; su cumplimiento no se presenta como una validación experimental ni una certificación de procedencia.

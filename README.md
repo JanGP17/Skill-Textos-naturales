@@ -1,4 +1,4 @@
-# Humanizar 2.0
+# Humanizar 2.1
 
 Humanizar ayuda a redactar y revisar textos académicos y profesionales en español con claridad y una voz natural. Conserva los hechos y la intención del autor, y mejora la forma de desarrollar y conectar las ideas.
 
@@ -12,13 +12,15 @@ Humanizar ayuda a redactar y revisar textos académicos y profesionales en espa�
 - Reduce relleno, clichés y expresiones ornamentales; revisa las estructuras repetitivas según su función.
 - Fortalece la argumentación y la relación entre problema, objetivos, metodología, resultados y conclusiones.
 - Conserva la voz del autor y los términos técnicos que aportan precisión.
-- Entrega texto final limpio: las dudas esenciales se resuelven en el chat antes de finalizar el fragmento.
+- Entrega texto final limpio y mantiene las incidencias editoriales en el chat. Conserva los datos aportados mientras falte una corrección confirmada.
 
 Incluye un inventario de 89 asuntos de revisión, ejemplos y un auditor opcional para archivos de texto. APA 7 se trabaja con una habilidad independiente.
 
-## La regla central de la versión 2.0
+## La regla central de la versión 2.1
 
-El documento final contiene únicamente el texto destinado a su lector. Esta regla comprende los párrafos, las notas, los pies de figura y los anexos. Las observaciones editoriales accesorias se omiten; cuando falta un dato indispensable, la habilidad hace una consulta en el chat. Las limitaciones del estudio y los resultados negativos se mantienen cuando forman parte del contenido.
+El documento final contiene únicamente el texto destinado a su lector. Esta regla comprende los párrafos, las notas, los pies de figura y los anexos. Las observaciones editoriales accesorias se omiten; cuando falta un dato indispensable, la habilidad hace una consulta en el chat. Si una consulta sobre un dato aportado queda sin respuesta, conserva el original, incluido un posible error de fecha, sin añadir avisos en el documento. Las limitaciones del estudio y los resultados negativos se mantienen cuando forman parte del contenido.
+
+Aplica una expresión directa tanto en documentos como en conversación. Evita los moldes de oposición retórica y las generalidades vacías. Retira las tríadas ornamentales y los ritmos mecánicos. Conserva las enumeraciones factuales completas y las citas literales.
 
 ## Instalar por comando en Codex
 
@@ -45,7 +47,7 @@ Los comandos utilizan el instalador [skills de Vercel Labs](https://github.com/v
 
 ## Instalar desde el ZIP en Windows
 
-1. Descomprime `humanizar-v2.0.zip`.
+1. Descomprime `humanizar-v2.1.zip`.
 2. Copia la carpeta completa `humanizar` en `%USERPROFILE%\.agents\skills\`.
 3. Comprueba que exista `%USERPROFILE%\.agents\skills\humanizar\SKILL.md`.
 4. En Codex, abre `/skills` o escribe `$humanizar` para seleccionarla. Si aún no aparece, abre una nueva sesión.
@@ -58,7 +60,8 @@ Para actualizar una instalación manual, guarda una copia de la carpeta anterior
 $humanizar Revisa este apartado de mi tesis. Mejora la claridad y la
 argumentación; conserva los datos, las fuentes y los términos técnicos.
 Entrega la versión final limpia. Consulta en el chat cualquier dato
-esencial que necesites antes de finalizar.
+esencial que necesites. Si una consulta sobre un dato aportado
+queda sin respuesta, conserva el dato original sin avisos en el texto.
 ```
 
 También puedes pedir un primer borrador:
