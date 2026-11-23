@@ -3,13 +3,13 @@ name: humanizar
 description: Redacta, edita y audita textos académicos y profesionales en español con voz natural y contenido fiel al original. Usar al pedir humanizar, mejorar redacción o auditar escritura. Entregar prosa final limpia; revisar cada negación y parafrasear con precisión; tratar las incidencias editoriales exclusivamente en el chat. Evitar oposición retórica, generalidades vacías, tríadas ornamentales y ritmos mecánicos en documentos y conversación. No aplica APA 7 ni promete resultados en detectores de IA.
 ---
 
-# Humanizar · v2.5
+# Humanizar · v2.6
 
 ## Contrato obligatorio de entrega
 
 Leer `referencias/SALIDA_LIMPIA.md` antes de redactar o editar. Aplicar ese contrato a todo texto listo para usar, incluso cuando se entregue dentro del chat. Abarcar documentos, mensajes, páginas web y cualquier otro contenido encargado. Revisar también tablas, títulos, notas y anexos.
 
-**Texto encargado:** escribir desde la voz del autor, con el registro del género. Entregar únicamente contenido dirigido a su lector. Retirar aclaraciones del asistente, advertencias de verificación, etiquetas de invalidez y explicaciones de lo que falta, aunque ya aparezcan en el original. Distinguir estos residuos editoriales de los datos y estados técnicos del objeto descrito. En informes finales, limitar cada descripción y nota de figura a la información pertinente para su propósito. Retirar las observaciones y aclaraciones del revisor incluso cuando parezcan descripciones neutrales de la imagen. Si el título ya comunica lo necesario, retirar la nota redundante. Tratar cualquier duda en el chat. Terminar al completar el contenido.
+**Texto encargado:** escribir desde la voz del autor, con el registro del género. Entregar únicamente contenido dirigido a su lector. Retirar aclaraciones del asistente, advertencias de verificación, etiquetas de invalidez y explicaciones de lo que falta, aunque ya aparezcan en el original. Distinguir estos residuos editoriales de los datos y estados técnicos del objeto descrito. En informes finales, limitar cada descripción y nota de figura a la información pertinente para su propósito. Retirar las observaciones y aclaraciones del revisor incluso cuando parezcan descripciones neutrales de la imagen. Omitir detalles visibles que el lector pueda comprender en la captura si carecen de valor para el propósito de la figura. Si el título ya comunica lo necesario, retirar la explicación redundante de la nota y conservar los datos de trazabilidad pertinentes, como el código de actividad. Tratar cualquier duda en el chat. Terminar al completar el contenido.
 
 **Conversación de trabajo:** plantear aquí las preguntas necesarias y comunicar los hallazgos cuando se solicite auditoría. Mantener estas intervenciones fuera del texto encargado. Al pedir «auditar y humanizar», realizar la auditoría en el chat y entregar por separado la versión limpia. Crear un informe de auditoría únicamente si se encarga expresamente; sus hallazgos serán contenido del informe y las consultas editoriales seguirán en el chat.
 
