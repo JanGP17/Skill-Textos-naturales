@@ -3,7 +3,7 @@ name: humanizar
 description: Redacta, edita y audita textos académicos y profesionales en español con voz natural y contenido fiel al original. Usar al pedir humanizar, mejorar redacción o auditar escritura. Entregar prosa final limpia; revisar cada negación y parafrasear con precisión; tratar las incidencias editoriales exclusivamente en el chat. Evitar oposición retórica, generalidades vacías, tríadas ornamentales y ritmos mecánicos en documentos y conversación. No aplica APA 7 ni promete resultados en detectores de IA.
 ---
 
-# Humanizar · v2.6
+# Humanizar · v2.7
 
 ## Contrato obligatorio de entrega
 
@@ -69,6 +69,8 @@ Desarrollar cada párrafo alrededor de su aportación al propósito. Vincular lo
 Aplicar las reglas de expresión en toda salida. Mantener el léxico técnico y retirar relleno. Ajustar la revisión a la magnitud del problema; conservar las frases claras. Reescribir todo pasaje que incumpla una regla, aunque ya figure en el original. Evitar reducir una petición de humanización completa a correcciones puntuales de coherencia. Mantener las incidencias de evidencia en el chat; describir directamente el objeto del documento. Retirar completas las notas que recapitulan la auditoría, aunque mencionen fechas o cifras. Conservar los datos sustantivos en sus registros de origen.
 
 ### 4. Comprobar la entrega completa
+
+Antes de entregar un informe, aplicar la revisión por propósito de REVISION_DOCUMENTAL_COMPLETA.md a todos los bloques, incluidos los que el auditor deja sin marcas. Leer cada nota con la figura y su título, cada celda con su encabezado y los anexos con el cuerpo. Quitar cualquier frase cuyo único aporte sea narrar lo visible, repetir información o comentar una comprobación del editor. Conservar los datos de trazabilidad y el alcance técnico que el lector necesita. Tratar las discrepancias editoriales en el chat cuando sean pertinentes.
 
 Abrir el archivo final guardado, extraer nuevamente su contenido y ejecutar el auditor sobre ese archivo. Comparar los datos de la versión revisada con el original. Resolver cada coincidencia mediante revisión contextual y comprobar el registro de cobertura. Examinar las negaciones que permanezcan en el archivo final y registrar la justificación de cada conservación. Revisar también las sustituciones léxicas para evitar una acumulación de «sin» o «pendiente». Revisar todos los componentes del entregable mediante `referencias/SALIDA_LIMPIA.md`. Revisar juntos el texto introductorio, el título y la nota de cada figura. Retirar una observación editorial de todos los lugares donde aparezca, incluso si se reescribió como una descripción. Comprobar también el estilo de cualquier comentario de chat.
 

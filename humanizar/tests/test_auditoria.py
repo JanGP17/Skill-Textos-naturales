@@ -47,5 +47,18 @@ class AuditorTest(unittest.TestCase):
         self.assertTrue(all(row['severidad'] == 'contextual' for row in hits))
         self.assertEqual(audit('Portada del micrositio de Antropología'), [])
 
+    def test_aviso_visible_y_tarea_del_revisor_son_contextuales(self):
+        rows = audit('Nota. El directorio muestra en la vista móvil un mensaje de ausencia de registros. Actividad A13.\n'
+                     'Validación pendiente de confirmar.\n'
+                     'Registro de actividad; capturas por seleccionar.')
+        expected = {'detalle visible de una interfaz', 'posible tarea del revisor'}
+        hits = [r for r in rows if r['clase'] in expected]
+        self.assertEqual([r['linea'] for r in hits], [1, 2, 3])
+        self.assertTrue(all(r['severidad'] == 'contextual' for r in hits))
+
+    def test_titulo_trazabilidad_y_comportamiento_directo(self):
+        self.assertEqual(audit('Directorio público en móvil. Actividad A13. '
+                               'El buscador pide al menos dos caracteres.'), [])
+
 if __name__ == '__main__':
     unittest.main()

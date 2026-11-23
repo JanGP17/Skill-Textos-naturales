@@ -34,6 +34,24 @@ Clasificar las frases por su función. Un resultado como «prueba no ejecutada»
 
 Completar además un registro por negación conforme a NEGACIONES_Y_PARAFRASIS.md. Mantener el dato y evaluar la paráfrasis de su oración. Evitar conservar la construcción solo por tratarse de un estado técnico.
 
+### Revisar por propósito, incluso sin coincidencias en el auditor
+
+Determinar qué tarea cumple el apartado y qué información necesita su lector. Leer la figura con su título, nota y párrafo de presentación. Leer las celdas con los encabezados y el resto de la fila. Buscar en el cuerpo y los anexos si la misma información aparece en varios lugares. Evaluar cada frase con esta pregunta: «¿Qué información necesaria se perdería si la quito?». Aplicar el criterio a todo el informe, aunque el auditor devuelva cero coincidencias.
+
+| Caso | Decisión en el informe |
+|---|---|
+| Detalle visible o repetido por el título, como un encabezado, banner, campos de acceso o aviso de directorio vacío | Omitir la narración cuando la figura identifica una pantalla. Conservar la fuente y el código de actividad si aportan trazabilidad. Si toda la nota es redundante, retirarla completa. |
+| Comportamiento de interfaz requerido por el encargo | Describir el hecho con lenguaje directo. Si se documenta una condición de búsqueda, conservar «El buscador pide al menos dos caracteres». Un aviso visible en la interfaz no permite inferir el estado de la base de datos. |
+| Imagen reutilizada, rótulos distintos u otra diferencia visible | Describir únicamente lo que el apartado necesita. Consultar en el chat si la diferencia exige una decisión. Evitar convertirla en una incidencia o una tarea pendiente. |
+| Salvedad sobre lo que acredita una captura, un vídeo, una planilla o un repositorio | En un informe descriptivo identificar el material pertinente y quitar la salvedad. Una evaluación de evidencia forma parte del informe cuando se encargó expresamente. |
+| Consulta sobre fechas, recuentos, actas, guardado o permisos de acceso | Tramitar la consulta en el chat. Conservar el dato aportado en su registro mientras falte una corrección confirmada. Suprimir etiquetas del revisor y recapitulaciones. Si un campo admite quedar vacío y el dato falta, dejarlo vacío. Respetar los códigos de datos faltantes exigidos por el formato. |
+| Tarea del revisor, como «capturas por seleccionar» o «acceso pendiente de confirmar» | Retirar el recordatorio del entregable. Mantener un estado pendiente únicamente cuando esté documentado como parte del proyecto. |
+| Estado real de una prueba, un manual o una validación | Conservar el estado y su alcance. Un build sin ejecutar, un manual excluido del paquete y un acta que el revisor no localizó describen situaciones distintas. La última queda como consulta si corresponde. |
+| Atribución genérica, como «según la fuente» o «el borrador señala» | Conservar o precisar la atribución cuando sostenga el dato o delimite su certeza. Retirar las fórmulas repetitivas que solo narren el trabajo editorial. |
+| Oposición innecesaria, calificativos vagos, conectores formales o nominalizaciones como «mensaje de ausencia de registros» | Quitar la frase si es accesoria. Cuando el dato sea necesario, reconstruir la frase con lenguaje directo desde las ideas clave. Preservar las relaciones y las negaciones técnicas que determinan el significado. |
+
+Asignar un lugar principal a cada dato y mantener las remisiones que ayuden a navegar el documento. Eliminar repeticiones en otros bloques cuando carezcan de función propia. En el registro interno indicar qué se retiró, qué dato se conservó y qué decisión corresponde consultar. Mantener ese registro fuera del entregable.
+
 ## 4. Reformular el contenido
 
 Escribir directamente desde la voz del autor. Eliminar moldes de oposición y amplificaciones prefabricadas. Dar a las ideas su extensión necesaria. Retirar tríadas ornamentales y generalidades vacías.

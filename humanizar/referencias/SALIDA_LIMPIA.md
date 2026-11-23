@@ -1,4 +1,4 @@
-# Contrato de salida limpia · Humanizar 2.6
+# Contrato de salida limpia · Humanizar 2.7
 
 Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 
@@ -56,6 +56,8 @@ La conservación del original protege los datos y el argumento del autor. Identi
 En una evaluación técnica cuyo encargo expreso sea determinar cumplimiento o aceptación, comunicar los hallazgos de ese objeto con el respaldo disponible. Mantener las consultas del editor en el chat. Evitar aplicar esa finalidad a un anexo descriptivo por iniciativa propia.
 
 Conservar el significado de los resultados negativos y las limitaciones científicas. Aplicar NEGACIONES_Y_PARAFRASIS.md para elegir una expresión natural con el mismo alcance. Registrar internamente el motivo de cada negación literal conservada. Mantener las citas literales y las fuentes de figuras. Evaluar cada nota por su función.
+
+Aplicar la revisión por propósito de REVISION_DOCUMENTAL_COMPLETA.md antes de decidir qué conservar en figuras, tablas o párrafos. Usar el método de palabras clave después de filtrar los detalles accesorios y las observaciones editoriales.
 
 ### Describir las figuras según el propósito del anexo
 
