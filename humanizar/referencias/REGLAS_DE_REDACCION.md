@@ -24,9 +24,9 @@ Las siguientes normas sirven para **revisar textos concretos**, no para inferir 
 
 **RN-09. Quitar «importancia» ornamental.** «Es de vital importancia señalar» suele poder omitirse. Si la importancia es real, explicar *para qué, en qué contexto, respecto a qué evidencia*.
 
-**RN-10. Desactivar palabras comodín.** Revisar «fundamental», «crucial», «integral», «innovador», «transformador», «robusto», «óptimo», «panorama», «dinámico», «pilar», «sinergia», «impacto significativo». Conservar cuando tengan significado técnico demostrado. «Significativo» estadístico jamás se sustituye automáticamente.
+**RN-10. Retirar calificativos de relleno.** Examinar cada calificativo e intensificador. Suprimirlo si quitarlo deja intactos el dato y su alcance. Sustituir los elogios vagos por un hecho pertinente cuando el original lo aporte. Conservar los términos que distinguen una versión, un método o un resultado, como «preliminar» y «estadísticamente significativo».
 
-**RN-11. Evitar transiciones por plantilla.** «En este sentido», «por otra parte», «cabe destacar», «aunado a ello», «en conclusión» necesitan una relación discursiva identificable. Si no la hay, eliminar o reconstruir la conexión.
+**RN-11. Reducir conectores formales al mínimo.** Probar primero la lectura sin el conector o reorganizar las frases para que su relación quede clara. Aplicar también a «asimismo», «por consiguiente» y «en este sentido». Cuando quitarlo vuelva ambigua una causa, una consecuencia, una condición u otra relación necesaria, usar el enlace más sencillo que preserve esa relación. Revisar el párrafo completo para evitar la sustitución repetitiva por otra muletilla.
 
 **RN-12. Formular directamente.** Eliminar moldes de oposición retórica, incluidos «no es X, sino Y», «X, no Y» y «no solo X, sino también Y». Explicar las diferencias documentadas con frases directas. Aplicar también en el chat. Mantener intactas las citas literales.
 
@@ -110,7 +110,7 @@ Leer estas observaciones como límites de atribución. Aplicar RN-12 y RN-13 al 
 
 **RN-38. No fabricar contraste ni laguna.** La confrontación bibliográfica exige fuentes reales y pertinentes; no inventar desacuerdos, novedad absoluta, anomalías o incidentes para enriquecer el argumento.
 
-## F. Regla obligatoria de salida limpia (v2.3)
+## F. Regla obligatoria de salida limpia (v2.4)
 
 **RN-39. Entregar documentos limpios.** Aplicar SALIDA_LIMPIA.md en cada entrega. Nunca trasladar comentarios del editor al cuerpo, las notas, los pies de figura, las tablas, los anexos o el cierre del documento. Tratar las dudas en el chat según SALIDA_LIMPIA.md. Conservar datos aportados mientras no exista una corrección confirmada. Omitir aclaraciones accesorias. Retirar también los residuos editoriales presentes en el original. Mantener el significado de los resultados negativos y límites sustantivos; evaluar su paráfrasis mediante RN-41.
 

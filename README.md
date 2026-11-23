@@ -1,4 +1,4 @@
-# Humanizar 2.3
+# Humanizar 2.4
 
 Humanizar ayuda a redactar y revisar textos académicos y profesionales en español con claridad y una voz natural. Conserva los hechos y la intención del autor, y mejora la forma de desarrollar y conectar las ideas.
 
@@ -9,14 +9,15 @@ Humanizar ayuda a redactar y revisar textos académicos y profesionales en espa�
 ## Qué hace
 
 - Redacta desde apuntes y fuentes, manteniendo el contenido dentro de la evidencia disponible.
-- Reduce relleno, clichés y expresiones ornamentales; revisa las estructuras repetitivas según su función.
+- Retira calificativos de relleno y reduce los conectores formales a los necesarios para entender la relación entre ideas.
+- Parafrasea desde las ideas y relaciones clave, y coteja la nueva redacción con el original.
 - Fortalece la argumentación y la relación entre problema, objetivos, metodología, resultados y conclusiones.
 - Conserva la voz del autor y los términos técnicos que aportan precisión.
 - Entrega texto final limpio y mantiene las incidencias editoriales en el chat. Conserva los datos aportados mientras falte una corrección confirmada.
 
 Incluye un inventario de 89 asuntos de revisión y ejemplos. El auditor admite Word y localiza las coincidencias en sus párrafos y tablas. La revisión documental utiliza un registro interno de decisiones y vuelve a comprobar el archivo guardado. APA 7 se trabaja con una habilidad independiente.
 
-## La regla central de la versión 2.3
+## La regla central de la versión 2.4
 
 El documento final contiene únicamente el texto destinado a su lector. Esta regla comprende los párrafos, las notas, los pies de figura y los anexos. Las observaciones editoriales accesorias se omiten; cuando falta un dato indispensable, la habilidad hace una consulta en el chat. Si una consulta sobre un dato aportado queda sin respuesta, conserva los datos originales, incluido un posible error de fecha, sin añadir avisos en el documento. Las limitaciones del estudio y los resultados negativos se mantienen cuando forman parte del contenido.
 
@@ -49,7 +50,7 @@ Los comandos utilizan el instalador [skills de Vercel Labs](https://github.com/v
 
 ## Instalar desde el ZIP en Windows
 
-1. Descomprime `humanizar-v2.3.zip`.
+1. Descomprime `humanizar-v2.4.zip`.
 2. Copia la carpeta completa `humanizar` en `%USERPROFILE%\.agents\skills\`.
 3. Comprueba que exista `%USERPROFILE%\.agents\skills\humanizar\SKILL.md`.
 4. En Codex, abre `/skills` o escribe `$humanizar` para seleccionarla. Si aún no aparece, abre una nueva sesión.

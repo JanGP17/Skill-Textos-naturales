@@ -3,7 +3,7 @@ name: humanizar
 description: Redacta, edita y audita textos académicos y profesionales en español con voz natural y contenido fiel al original. Usar al pedir humanizar, mejorar redacción o auditar escritura. Entregar prosa final limpia; revisar cada negación y parafrasear con precisión; tratar las incidencias editoriales exclusivamente en el chat. Evitar oposición retórica, generalidades vacías, tríadas ornamentales y ritmos mecánicos en documentos y conversación. No aplica APA 7 ni promete resultados en detectores de IA.
 ---
 
-# Humanizar · v2.3
+# Humanizar · v2.4
 
 ## Contrato obligatorio de entrega
 
@@ -29,6 +29,8 @@ Aplicar estas reglas al texto encargado y a la conversación:
 - Construir cada párrafo según lo que necesita explicar. Evitar secuencias de párrafos con igual longitud, arranques repetidos y cierres simétricos. Dejar que el razonamiento determine la extensión; evitar cuotas artificiales de frases cortas y largas.
 
 Leer y aplicar `referencias/NEGACIONES_Y_PARAFRASIS.md` en cada redacción o revisión. Examinar cada negación, incluidas «no se realizó», «no se afirma» y las formuladas con «sin», «ni», «nunca» o «tampoco». Retirar comentarios editoriales; reformular el contenido necesario con una expresión directa y natural. Conservar el significado de los resultados negativos y los estados técnicos. Esa conservación permite cambiar la construcción gramatical. Mantener la negación literal únicamente cuando una alternativa pierde precisión o se trata de una cita, denominación técnica o instrucción cuyo sentido exige esa forma. Evaluar una alternativa fiel que mantenga la atribución y el alcance antes de conservar el «no»; registrar internamente el motivo de descarte de esa alternativa. Evitar sustituir todos los «no» por una misma fórmula con «sin», «ausencia» o «pendiente». Expresar diferencias documentadas sin convertirlas en eslóganes de oposición. Respetar las citas literales. Estas reglas expresan la preferencia editorial del usuario y no funcionan como pruebas de autoría.
+
+Aplicar RN-10 y RN-11 en la revisión final. Retirar calificativos que carezcan de aportación concreta. Probar primero la conexión directa entre ideas; conservar un conector cuando haga falta para entender su relación.
 
 ## Alcance y fidelidad
 
@@ -60,6 +62,8 @@ Revisar la evidencia de toda proposición añadida por el asistente. Utilizar lo
 
 ### 3. Redactar y editar
 
+Para parafrasear o reescribir pasajes que requieran cambios de estructura, aplicar `referencias/PALABRAS_CLAVE.md`. Extraer las ideas y sus relaciones, reconstruir el pasaje a partir de ellas y cotejarlo con el original.
+
 Desarrollar cada párrafo alrededor de su aportación al propósito. Vincular los resultados con el dato disponible. Relacionar fuentes por su contenido efectivamente conocido. Explicar diferencias de método o población cuando estén documentadas. Evitar añadir una limitación a cada hallazgo por costumbre.
 
 Aplicar las reglas de expresión en toda salida. Mantener el léxico técnico y retirar relleno. Ajustar la revisión a la magnitud del problema; conservar las frases claras. Reescribir todo pasaje que incumpla una regla, aunque ya figure en el original. Evitar reducir una petición de humanización completa a correcciones puntuales de coherencia. Mantener las incidencias de evidencia en el chat; describir directamente el objeto del documento. Retirar completas las notas que recapitulan la auditoría, aunque mencionen fechas o cifras. Conservar los datos sustantivos en sus registros de origen.
@@ -74,6 +78,7 @@ Entregar la versión limpia. Añadir diagnóstico en el chat únicamente cuando 
 
 ## Materiales de apoyo
 
+- `referencias/PALABRAS_CLAVE.md`: reconstrucción de pasajes y cotejo con el original.
 - `referencias/NEGACIONES_Y_PARAFRASIS.md`: revisión obligatoria de cada negación y paráfrasis con control de significado.
 - `referencias/REVISION_DOCUMENTAL_COMPLETA.md`: inventario, reescritura por bloques y comprobación del archivo guardado.
 - `referencias/SALIDA_LIMPIA.md`: contrato de canales, tratamiento de incidencias y control de entrega.

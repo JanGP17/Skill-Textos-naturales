@@ -27,5 +27,17 @@ class AuditorTest(unittest.TestCase):
     def test_advertencia_no_es_puntuacion(self):
         self.assertEqual(audit('La muestra —de 28 docentes— respondió en agosto.'), [])
 
+    def test_calificativos_ornamentales_en_plural(self):
+        hits = audit('Presentaron soluciones innovadoras y resultados excepcionales.')
+        self.assertEqual([h['fragmento'] for h in hits if h['regla'] == 'RN-10'],
+                         ['innovadoras', 'excepcionales'])
+        self.assertEqual(audit('El resultado preliminar fue estadísticamente significativo.'), [])
+
+    def test_conectores_formales_son_contextuales(self):
+        hits = audit('Asimismo, hubo una demora. Por consiguiente, se amplió el plazo.')
+        self.assertEqual([h['fragmento'] for h in hits if h['regla'] == 'RN-11'],
+                         ['Asimismo', 'Por consiguiente'])
+        self.assertTrue(all(h['severidad'] == 'contextual' for h in hits))
+
 if __name__ == '__main__':
     unittest.main()

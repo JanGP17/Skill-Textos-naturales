@@ -1,4 +1,4 @@
-# Contrato de salida limpia · Humanizar 2.3
+# Contrato de salida limpia · Humanizar 2.4
 
 Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 

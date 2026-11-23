@@ -15,8 +15,8 @@ from xml.etree import ElementTree as ET
 
 RULES = [
     ("RN-09", "prefacio vacío", "media", r"\b(?:es de vital importancia|es importante (?:mencionar|destacar|señalar)|cabe (?:destacar|resaltar|mencionar))\b", "¿Puede comenzar directamente con la afirmación?"),
-    ("RN-10", "léxico grandilocuente", "contextual", r"\b(?:pilar fundamental|panorama dinámico|en el dinámico panorama|papel crucial|experiencia enriquecedora|un análisis exhaustivo|transformación revolucionaria)\b", "Solicitar dato concreto o simplificar; conservar si se justifica."),
-    ("RN-11", "conector ritual", "contextual", r"\b(?:en este sentido|en ese sentido|por otra parte|aunado a ello|en conclusión|en definitiva)\b", "Comprobar que la transición tiene función lógica."),
+    ("RN-10", "léxico grandilocuente", "contextual", r"\b(?:pilar fundamental|panorama dinámico|en el dinámico panorama|papel crucial|experiencia enriquecedora|un análisis exhaustivo|transformación revolucionaria|innovador(?:a|es|as)?|excepcional(?:es)?|extraordinari[oa]s?)\b", "Revisar el aporte del calificativo. Retirar el elogio de relleno y conservar las precisiones técnicas."),
+    ("RN-11", "conector ritual", "contextual", r"\b(?:en este sentido|en ese sentido|por otra parte|aunado a ello|en conclusión|en definitiva|asimismo|por consiguiente|por ende|de igual manera|en consecuencia|por lo tanto)\b", "Probar una conexión directa. Conservar un enlace sencillo si hace falta para entender la relación."),
     ("RN-12", "oposición retórica", "alta", r"\b(?:no solo\b.{0,100}?\bsino (?:también|que)|no (?:es|se trata de)\b.{0,100}?\bsino)\b", "Reformular directamente; preservar diferencias factuales y citas literales."),
     ("RN-14", "generalización temática", "media", r"\b(?:en la sociedad actual|en el mundo actual|hoy más que nunca|en el contexto actual de constante cambio)\b", "Sustituir por contexto verificable o eliminar."),
     ("RN-19", "tono publicitario", "media", r"\b(?:solución revolucionaria|a la vanguardia de la innovación|amplia gama de beneficios|marca un antes y un después)\b", "Reformular como evidencia concreta."),
