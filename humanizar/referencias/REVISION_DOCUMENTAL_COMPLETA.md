@@ -40,7 +40,7 @@ Determinar qué tarea cumple el apartado y qué información necesita su lector.
 
 | Caso | Decisión en el informe |
 |---|---|
-| Detalle visible o repetido por el título, como un encabezado, banner, campos de acceso o aviso de directorio vacío | Omitir la narración cuando la figura identifica una pantalla. Conservar la fuente y el código de actividad si aportan trazabilidad. Si toda la nota es redundante, retirarla completa. |
+| Detalle visible o repetido por el título, como un encabezado, banner, campos de acceso o aviso de directorio vacío | Resumir el estado que documenta una nota existente en una frase directa. Conservar la fuente y el código de actividad si aportan trazabilidad. Evitar dejar solo el código cuando la nota contiene una descripción factual. |
 | Comportamiento de interfaz requerido por el encargo | Describir el hecho con lenguaje directo. Si se documenta una condición de búsqueda, conservar «El buscador pide al menos dos caracteres». Un aviso visible en la interfaz no permite inferir el estado de la base de datos. |
 | Imagen reutilizada, rótulos distintos u otra diferencia visible | Describir únicamente lo que el apartado necesita. Consultar en el chat si la diferencia exige una decisión. Evitar convertirla en una incidencia o una tarea pendiente. |
 | Salvedad sobre lo que acredita una captura, un vídeo, una planilla o un repositorio | En un informe descriptivo identificar el material pertinente y quitar la salvedad. Una evaluación de evidencia forma parte del informe cuando se encargó expresamente. |

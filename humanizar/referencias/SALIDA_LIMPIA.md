@@ -1,4 +1,4 @@
-# Contrato de salida limpia · Humanizar 2.7
+# Contrato de salida limpia · Humanizar 2.8
 
 Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 
@@ -61,13 +61,13 @@ Aplicar la revisión por propósito de REVISION_DOCUMENTAL_COMPLETA.md antes de 
 
 ### Describir las figuras según el propósito del anexo
 
-Leer juntos el párrafo que presenta la figura, el título, la nota y las referencias a la imagen en el cuerpo. Conservar solo el contenido que ayude al lector a entender el objeto documentado. Retirar las anotaciones, hipótesis y aclaraciones del revisor de todas sus ubicaciones, incluso cuando aparezcan como comparaciones descriptivas sin palabras de advertencia. Si la nota no aporta contenido pertinente más allá del título, quitarla completa. Mantener las atribuciones que correspondan.
+Leer juntos el párrafo que presenta la figura, el título, la nota y las referencias a la imagen en el cuerpo. Conservar solo el contenido que ayude al lector a entender el objeto documentado. Retirar las anotaciones, hipótesis y aclaraciones del revisor de todas sus ubicaciones, incluso cuando aparezcan como comparaciones descriptivas sin palabras de advertencia. Si una nota existente contiene una descripción factual, dejar una frase breve que explique lo que se ve y conservar la trazabilidad pertinente. Retirar por completo una nota compuesta solo de observaciones editoriales. Mantener las atribuciones que correspondan.
 
 Una diferencia visible entre un encabezado y un rótulo, o la aparición de una misma imagen en dos lugares, por sí sola no establece una incidencia. Evitar inferir errores, tareas pendientes o intenciones. Si la duda requiere una decisión, trasladarla al chat. Si el autor confirma que la reutilización fue intencional, cerrar la duda editorial. Mencionar la reutilización en el informe únicamente cuando el encargo la convierta en parte del tema.
 
 **Caso del Anexo 8. Antropología.** El encabezado identifica el micrositio de Antropología. El banner muestra un rótulo de Arqueología y el autor confirma que publicó la misma foto en ambas escuelas. El anexo documenta la portada del micrositio. Dejar «Figura 8.1. Portada del micrositio de Antropología» con el enlace del portafolio y la imagen. Retirar «discrepancia visual por revisar» del cuerpo y la comparación del encabezado con el rótulo de la nota. El título basta para identificar la figura.
 
-**Caso del directorio público en móvil.** Con el título «Directorio público en móvil», omitir «El directorio muestra en la vista móvil un mensaje de ausencia de registros». La frase repite el título y comenta un mensaje legible que queda fuera del propósito de la figura. Dejar solo «Nota. Actividad A13.» para identificar la actividad. Aplicar el mismo criterio a otros mensajes, botones o rótulos visibles. Si el encargo pide documentar el comportamiento de la interfaz en un estado específico, describir ese estado con palabras directas y limitar la afirmación a lo que muestra la captura.
+**Caso del directorio público en móvil.** Reformular «El directorio muestra en la vista móvil un mensaje de ausencia de registros. Actividad A13.» como «Nota. Se muestra una vista móvil sin registros. Actividad A13.». Conservar el estado visible en una frase directa aunque la captura permita leerlo. Aplicar este criterio a otras notas que documenten un estado de pantalla. Limitar la descripción a lo que la imagen muestra.
 
 ### Retirar recapitulaciones de la auditoría
 
