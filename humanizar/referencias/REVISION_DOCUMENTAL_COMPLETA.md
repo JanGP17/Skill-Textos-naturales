@@ -56,7 +56,21 @@ Asignar un lugar principal a cada dato y mantener las remisiones que ayuden a na
 
 Escribir directamente desde la voz del autor. Cotejar los verbos en primera persona con las acciones que el autor indicó que realizó.
 
-**Caso de la Tabla 16.1.** En una tabla del propio proyecto, usar «Estado de la documentación y la entrega técnica». Formular celdas directas como «README versionado» y «Build sin ejecutar». Conservar la versión declarada, la rama y el identificador de la revisión. Mantener la incorporación y revisión del manual como pendientes cuando así consten. Si el acta simplemente quedó fuera de lo que el revisor pudo localizar, tratar la consulta en el chat. Retirar la nota si solo repite la tabla o narra lo que informó la fuente.
+**Caso de la Tabla 16.1. Estado de la documentación y la entrega técnica**
+
+Primero determinar si el dato es propio y confirmado, si proviene de un tercero o si describe una limitación de la revisión. Luego revisar encabezados, celdas y notas como un conjunto. Aplicar estas decisiones también a otros informes de avance, inventarios de archivos y tablas de entrega.
+
+| Elemento | Redacción para el informe | Criterio |
+|---|---|---|
+| Título y columnas | «Estado de la documentación y la entrega técnica», «Elemento» y «Estado» | Nombrar el tema y usar columnas con aportes distintos. Mantener una columna de evidencia si el formato la exige o aporta un dato diferente del estado. |
+| README | «Versionado. Incluye instrucciones para ejecutar el proyecto localmente». | Quitar «disponible según la fuente» si repite el registro. Mantener la disponibilidad si se trata de un estado distinto confirmado. |
+| package.json y package-lock.json | «Archivos versionados. Versión 0.1.0 y dependencias registradas». | Con una versión propia confirmada, quitar «declarada», «reportada» o «identificada». Si solo se conoce la versión indicada por un tercero, mantener una atribución específica. Si se conoce el archivo que la contiene y nombrarlo es útil, se puede citar ese archivo. |
+| Manual de operación | «Pendiente de incorporar al paquete y revisar». | Conservar la existencia del manual y la exclusión del paquete revisado cuando sean relevantes. Usar «pendiente» solo si la incorporación o revisión está documentada como tarea. Evitar atribuirle disponibilidad o entrega sin respaldo. |
+| Build y acta | «Build sin ejecutar». | Expresar por separado cada estado con respaldo. Si el revisor no localizó el acta, tratar su estado en el chat. Conservar un estado de firma o entrega cuando esté confirmado. La ausencia de un documento durante la revisión no acredita su inexistencia. |
+| Revisión del código fuente | «Rama main, commit [hash exacto]». | Mantener el identificador completo. Quitar «se identifica» o «hash identificado» si solo narran la revisión. Conservar el alcance de validación cuando sea un estado documentado o un criterio técnico del apartado. Una revisión concreta no acredita por sí sola el estado del paquete. |
+| Nota debajo de la tabla | Conservar únicamente datos que complementen la tabla, como el alcance de una comprobación cuando sea pertinente. | Quitar una nota que repite los estados o solo comunica dudas del editor. Simplificar las notas que sí aportan contenido. |
+
+Revisar la atribución por su función. «Versión 0.1.0» expresa el dato confirmado del proyecto. Si un proveedor es el único que afirma haber completado el build, escribir «El proveedor informó que completó el build». Aplicar el mismo criterio a «consta», «figura», «documentado», «se observó» y expresiones afines. Mantenerlas cuando describan una comprobación realmente hecha o indiquen el alcance de lo que se sabe. No convertir una observación del revisor en una acción propia del autor.
 
 Eliminar moldes de oposición y amplificaciones prefabricadas. Dar a las ideas su extensión necesaria. Retirar tríadas ornamentales y generalidades vacías.
 

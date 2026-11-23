@@ -1,4 +1,4 @@
-# Humanizar 2.9
+# Humanizar 2.10
 
 Humanizar ayuda a redactar y revisar textos académicos y profesionales en español con claridad y una voz natural. Conserva los hechos y la intención del autor, y mejora la forma de desarrollar y conectar las ideas.
 
@@ -17,7 +17,7 @@ Humanizar ayuda a redactar y revisar textos académicos y profesionales en espa�
 
 Incluye un inventario de 89 asuntos de revisión y ejemplos. El auditor admite Word y localiza las coincidencias en sus párrafos y tablas. La revisión documental evalúa cada frase según el propósito del apartado, incluso cuando el auditor no marca coincidencias. Registra las decisiones y vuelve a comprobar el archivo guardado. APA 7 se trabaja con una habilidad independiente.
 
-## La regla central de la versión 2.9
+## La regla central de la versión 2.10
 
 El documento final contiene únicamente el texto destinado a su lector. Esta regla comprende los párrafos, las notas, los pies de figura y los anexos. Las observaciones editoriales se retiran también de las notas de figura, aunque estén redactadas como descripciones. Las observaciones accesorias se omiten; cuando falta un dato indispensable, la habilidad hace una consulta en el chat. Si una consulta sobre un dato aportado queda sin respuesta, conserva los datos originales, incluido un posible error de fecha, sin añadir avisos en el documento. Las limitaciones del estudio y los resultados negativos se mantienen cuando forman parte del contenido.
 
@@ -50,7 +50,7 @@ Los comandos utilizan el instalador [skills de Vercel Labs](https://github.com/v
 
 ## Instalar desde el ZIP en Windows
 
-1. Descomprime `humanizar-v2.9.zip`.
+1. Descomprime `humanizar-v2.10.zip`.
 2. Copia la carpeta completa `humanizar` en `%USERPROFILE%\.agents\skills\`.
 3. Comprueba que exista `%USERPROFILE%\.agents\skills\humanizar\SKILL.md`.
 4. En Codex, abre `/skills` o escribe `$humanizar` para seleccionarla. Si aún no aparece, abre una nueva sesión.
