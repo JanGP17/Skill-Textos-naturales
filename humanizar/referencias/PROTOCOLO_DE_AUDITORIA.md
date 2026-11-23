@@ -49,4 +49,4 @@ Evaluar la edición por fidelidad, precisión, cohesión y utilidad. No agregar 
 
 ## Control VI obligatorio · Salida limpia
 
-Revisar cuerpo, notas, pies de figura, anexos y cierre. Retirar comentarios sobre la edición y aclaraciones accesorias. Aplicar el tratamiento de consultas sin respuesta de SALIDA_LIMPIA.md. Conservar el error original cuando no exista una corrección confirmada. Comprobar que se mantienen las limitaciones sustantivas y los resultados negativos. La auditoría no debe introducirse automáticamente en el texto revisado.
+Revisar cuerpo, notas, pies de figura, anexos y cierre. Retirar comentarios sobre la edición y aclaraciones accesorias. Aplicar el tratamiento de consultas sin respuesta de SALIDA_LIMPIA.md. Conservar el error original cuando no exista una corrección confirmada. Comprobar que se mantienen los significados de las limitaciones y los resultados negativos. Aplicar NEGACIONES_Y_PARAFRASIS.md y resolver cada marcador RN-41; reformular las frases que admitan una alternativa fiel y natural. La auditoría no debe introducirse automáticamente en el texto revisado.

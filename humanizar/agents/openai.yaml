@@ -1,9 +1,8 @@
 interface:
   display_name: Humanizar
   short_description: Redacta y revisa con voz natural y texto final limpio.
-  default_prompt: Usa $humanizar para redactar o revisar con voz natural y texto final
-    limpio; trata las incidencias en el chat y conserva los datos aportados mientras
-    falte una corrección confirmada.
+  default_prompt: Usa $humanizar para revisar cada negación y parafrasear con precisión,
+    conservando los datos y entregando el texto limpio con las consultas en el chat.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

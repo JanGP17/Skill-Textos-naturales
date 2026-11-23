@@ -110,8 +110,11 @@ Leer estas observaciones como límites de atribución. Aplicar RN-12 y RN-13 al 
 
 **RN-38. No fabricar contraste ni laguna.** La confrontación bibliográfica exige fuentes reales y pertinentes; no inventar desacuerdos, novedad absoluta, anomalías o incidentes para enriquecer el argumento.
 
-## F. Regla obligatoria de salida limpia (v2.2)
+## F. Regla obligatoria de salida limpia (v2.3)
 
-**RN-39. Entregar documentos limpios.** Aplicar SALIDA_LIMPIA.md en cada entrega. Nunca trasladar comentarios del editor al cuerpo, las notas, los pies de figura, las tablas, los anexos o el cierre del documento. Tratar las dudas en el chat según SALIDA_LIMPIA.md. Conservar datos aportados mientras no exista una corrección confirmada. Omitir aclaraciones accesorias. Retirar también los residuos editoriales presentes en el original. Mantener los resultados negativos y límites sustantivos pertinentes.
+**RN-39. Entregar documentos limpios.** Aplicar SALIDA_LIMPIA.md en cada entrega. Nunca trasladar comentarios del editor al cuerpo, las notas, los pies de figura, las tablas, los anexos o el cierre del documento. Tratar las dudas en el chat según SALIDA_LIMPIA.md. Conservar datos aportados mientras no exista una corrección confirmada. Omitir aclaraciones accesorias. Retirar también los residuos editoriales presentes en el original. Mantener el significado de los resultados negativos y límites sustantivos; evaluar su paráfrasis mediante RN-41.
 
 **RN-40. Revisar la voz del autor.** Evitar que «el texto afirma», «según la información aportada» o cierres explicativos sustituyan la redacción propia del documento. Usar esas construcciones únicamente si su objeto real es analizar un texto o una fuente.
+
+
+**RN-41. Revisar cada negación y parafrasear.** Aplicar NEGACIONES_Y_PARAFRASIS.md en toda redacción y revisión. Localizar los marcadores negativos y decidir por aparición: retirar un comentario editorial, reformular el contenido con equivalencia o conservar una negación justificada por su precisión. Conservar el hallazgo y el estado técnico permite reconstruir su oración. Evitar un reemplazo mecánico por «sin» o «pendiente». Registrar cada conservación fuera del entregable.

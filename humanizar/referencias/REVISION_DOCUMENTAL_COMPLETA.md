@@ -32,17 +32,19 @@ Ante «audita y aplica», revisar toda la expresión del documento. La autorizac
 
 Clasificar las frases por su función. Un resultado como «prueba no ejecutada» comunica un estado técnico. Una frase como «no acredita por sí solo la aceptación» comenta la suficiencia de una evidencia. Llevar esa evaluación al chat cuando se edite un informe descriptivo. En un informe de auditoría expresamente encargado, desarrollar los hallazgos que constituyan su tema.
 
+Completar además un registro por negación conforme a NEGACIONES_Y_PARAFRASIS.md. Mantener el dato y evaluar la paráfrasis de su oración. Evitar conservar la construcción solo por tratarse de un estado técnico.
+
 ## 4. Reformular el contenido
 
 Escribir directamente desde la voz del autor. Eliminar moldes de oposición y amplificaciones prefabricadas. Dar a las ideas su extensión necesaria. Retirar tríadas ornamentales y generalidades vacías.
 
 Evitar sustituir una advertencia por otra redacción que conserve su función editorial. Retirar también las notas que recapitulan incidencias de auditoría con lenguaje aparentemente descriptivo. Conservar datos en sus registros de origen; evitar reconstruir una nota para proteger cada repetición numérica. Ejemplo recibido: «Las imágenes ilustran interfaces; no prueban por sí solas funcionamiento integral ni aceptación». Redacción para una relación de evidencias: «Vistas públicas, móviles y administrativas de los anexos 6–13». Tratar la aceptación en el chat si necesita una decisión.
 
-Conservar completos los estados técnicos aportados. En «El build no se ejecutó», puede expresarse «Build pendiente de ejecución». Para un acta no localizada, consultar su estado en el chat; evitar convertir la falta de localización en la afirmación de que no existe o no fue firmada.
+Conservar el significado de los estados técnicos aportados aplicando NEGACIONES_Y_PARAFRASIS.md. En «El build no se ejecutó», puede expresarse «El build quedó sin ejecutar». Usar «pendiente de ejecución» cuando ese estado esté documentado. Para un acta no localizada, consultar su estado en el chat; evitar convertir la falta de localización en la afirmación de que no existe o no fue firmada.
 
 ## 5. Guardar y volver a comprobar
 
-Abrir el archivo de salida guardado. Ejecutar sobre él el mismo inventario y auditor. Cotejar el texto extraído con las decisiones del registro interno. Resolver cada coincidencia contextual; evitar usar cero coincidencias como objetivo o certificado.
+Abrir el archivo de salida guardado. Ejecutar sobre él el mismo inventario y auditor. Cotejar el texto extraído con las decisiones del registro interno. Resolver cada coincidencia contextual; evitar usar cero coincidencias como objetivo o certificado. Revisar las apariciones RN-41 y justificar internamente cada negación conservada en la salida.
 
 Revisar de nuevo las celdas modificadas y los anexos. Buscar también equivalentes de las aclaraciones retiradas, aunque usen palabras distintas. Comprobar la fidelidad de fechas y cifras. Verificar que los enlaces y las imágenes se mantengan cuando se haya pedido conservarlos. Renderizar el documento y comprobar su presentación mediante la herramienta del formato.
 

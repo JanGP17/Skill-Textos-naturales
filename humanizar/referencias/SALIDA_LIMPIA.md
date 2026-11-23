@@ -1,4 +1,4 @@
-# Contrato de salida limpia · Humanizar 2.2
+# Contrato de salida limpia · Humanizar 2.3
 
 Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 
@@ -36,7 +36,7 @@ Excluir comentarios del asistente sobre acceso a fuentes, falta de comprobación
 
 Reconocer la función de la frase: «la captura no permite saber si…», «fecha inválida», «requiere verificación», «no se ha podido confirmar», «según la información proporcionada» y «no acredita por sí solo» suelen introducir la revisión del asistente en el documento. Ante una intrusión de ese tipo, retirarla; evitar conservarla mediante una paráfrasis.
 
-Usar atribuciones a fuentes cuando forman parte de la argumentación real. Evitar anteponer «la fuente informa» a cada dato conservado. Preservar los estados sustantivos aportados, como «prueba no ejecutada» o «micrositio parcialmente implementado», cuando describen el objeto del informe. Retirar las advertencias que relativizan cada evidencia, aunque ya estén en el texto recibido.
+Usar atribuciones a fuentes cuando forman parte de la argumentación real. Evitar anteponer «la fuente informa» a cada dato conservado. Preservar el significado de los estados sustantivos aportados y reformular su expresión aplicando NEGACIONES_Y_PARAFRASIS.md. Evaluar cada negación técnica antes de decidir conservarla. Retirar las advertencias que relativizan cada evidencia, aunque ya estén en el texto recibido.
 
 ### Clasificar antes de preservar
 
@@ -44,18 +44,18 @@ La conservación del original protege los datos y el argumento del autor. Identi
 
 | Frase recibida | Función | Acción en el entregable |
 |---|---|---|
-| «Pruebas de integración no ejecutadas» | Estado técnico aportado | Conservar |
+| «Pruebas de integración no ejecutadas» | Estado técnico aportado | Conservar el estado; reformular la expresión, por ejemplo «Pruebas de integración sin ejecutar». Usar «pendientes» únicamente si consta ese estado |
 | «Micrositio parcialmente implementado» | Estado del producto | Conservar |
 | «35/10/2026» | Dato aportado con posible error | Conservar mientras no exista corrección confirmada |
 | «La fecha requiere verificación» | Advertencia editorial | Retirar |
 | «Estos resultados no modifican el estado informado al 27 de octubre», añadido para justificar fechas incompletas | Reserva editorial sobre el alcance de la evidencia | Retirar; consultar en el chat la decisión de alcance si resulta necesaria |
 | «Los archivos versionados no acreditan la entrega técnica final» | Advertencia sobre suficiencia documental | Retirar del anexo descriptivo; tratar la decisión en el chat |
 | «El vídeo no acredita por sí solo el estado actual» | Reserva editorial sobre una evidencia | Retirar de la descripción del producto |
-| «No se encontraron diferencias estadísticamente significativas» | Resultado del estudio | Conservar |
+| «No se encontraron diferencias estadísticamente significativas» | Resultado del estudio | Conservar el hallazgo y ensayar una paráfrasis equivalente; evitar inferir igualdad de los grupos |
 
 En una evaluación técnica cuyo encargo expreso sea determinar cumplimiento o aceptación, comunicar los hallazgos de ese objeto con el respaldo disponible. Mantener las consultas del editor en el chat. Evitar aplicar esa finalidad a un anexo descriptivo por iniciativa propia.
 
-Conservar los resultados negativos y las limitaciones científicas que pertenecen al estudio. Ejemplo: «No se encontraron diferencias estadísticamente significativas». Mantener las citas literales y las fuentes de figuras. Evaluar cada nota por su función.
+Conservar el significado de los resultados negativos y las limitaciones científicas. Aplicar NEGACIONES_Y_PARAFRASIS.md para elegir una expresión natural con el mismo alcance. Registrar internamente el motivo de cada negación literal conservada. Mantener las citas literales y las fuentes de figuras. Evaluar cada nota por su función.
 
 ### Retirar recapitulaciones de la auditoría
 
@@ -89,6 +89,6 @@ Terminar ahí. Si se pide afirmar que los cambios se guardaron y ese dato está 
 
 Aplicar REVISION_DOCUMENTAL_COMPLETA.md en archivos. Reabrir la salida guardada y cotejarla con el registro de decisiones por bloque. Un inventario o una búsqueda automática registra extracción y coincidencias; la revisión semántica requiere leer cada bloque.
 
-Leer el entregable completo desde la voz del autor. Buscar intrusiones editoriales también en encabezados de tablas, celdas y pies. Cotejar fechas y cifras con el original o con las correcciones confirmadas. Confirmar que los resultados negativos siguen presentes. Revisar las reglas de expresión tanto en el texto encargado como en la conversación adjunta.
+Leer el entregable completo desde la voz del autor. Buscar intrusiones editoriales también en encabezados de tablas, celdas y pies. Cotejar fechas y cifras con el original o con las correcciones confirmadas. Confirmar que el significado de los resultados negativos sigue presente y que cada negación restante tiene una decisión editorial justificada. Revisar las reglas de expresión tanto en el texto encargado como en la conversación adjunta.
 
 Terminar cuando el contenido esté completo. Evitar despedidas, garantías de calidad y explicaciones automáticas sobre la revisión.

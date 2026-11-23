@@ -88,7 +88,7 @@ Los datos mencionados son **ficticios y meramente ilustrativos**. No trasladarlo
 
 **Original:** «No se encontraron diferencias estadísticamente significativas entre los grupos».
 
-**Después:** sin cambios si ese es el resultado aportado.
+**Después posible:** «El análisis mostró ausencia de diferencias estadísticamente significativas entre los grupos». Conservar los valores aportados y evaluar la naturalidad en su párrafo. Mantener la construcción original si una alternativa pierde precisión, dejando el motivo en el registro interno.
 
 **Por qué:** comunica un hallazgo, no un comentario editorial. La salida limpia preserva el resultado y su significado.
 
@@ -134,3 +134,18 @@ Los datos mencionados son **ficticios y meramente ilustrativos**. No trasladarlo
 **Encargo:** auditar y humanizar un anexo con título, introducción, tabla de pruebas y nota. El material incluye fechas `35/10/2026`, pruebas aprobadas y una integración no ejecutada.
 
 **Acción:** entregar el diagnóstico en el chat. Revisar la introducción y todas las celdas. Preservar la fecha mientras siga sin corregirse y el estado de integración aportado. Retirar «fecha inválida», «requiere verificación» y advertencias editoriales de la nota. Retirar también «estos resultados no modifican el estado informado» cuando sea una reserva añadida para justificar fechas incompletas. Terminar el anexo con su contenido.
+
+
+## Caso 17: reportes de revisión
+
+**Antes:** «Los revisores no reportaron errores de navegación».
+
+**Después posible en el contexto de esa revisión:** «La revisión transcurrió sin reportes de errores de navegación».
+
+**Control:** conservar el alcance de los reportes recibidos. Evitar afirmar que el sistema está libre de errores. Comparar con una alternativa fiel antes de decidir conservar la negación literal.
+
+## Caso 18: material ausente para el editor
+
+**Antes en un apartado de resultados:** «No se aportaron recuentos de participantes».
+
+**Decisión:** retirar la frase si describe material que el editor recibió. Tratar la petición de recuentos en el chat. Conservar los resultados disponibles sin añadir una paráfrasis del comentario editorial, como «la información aportada carecía de recuentos».

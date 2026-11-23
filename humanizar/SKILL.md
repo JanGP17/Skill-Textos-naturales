@@ -1,9 +1,9 @@
 ---
 name: humanizar
-description: Redacta, edita y audita textos académicos y profesionales en español con voz natural y contenido fiel al original. Usar al pedir humanizar, mejorar redacción o auditar escritura. Entregar prosa final limpia; tratar las incidencias editoriales exclusivamente en el chat. Evitar oposición retórica, generalidades vacías, tríadas ornamentales y ritmos mecánicos en documentos y conversación. No aplica APA 7 ni promete resultados en detectores de IA.
+description: Redacta, edita y audita textos académicos y profesionales en español con voz natural y contenido fiel al original. Usar al pedir humanizar, mejorar redacción o auditar escritura. Entregar prosa final limpia; revisar cada negación y parafrasear con precisión; tratar las incidencias editoriales exclusivamente en el chat. Evitar oposición retórica, generalidades vacías, tríadas ornamentales y ritmos mecánicos en documentos y conversación. No aplica APA 7 ni promete resultados en detectores de IA.
 ---
 
-# Humanizar · v2.2
+# Humanizar · v2.3
 
 ## Contrato obligatorio de entrega
 
@@ -28,7 +28,7 @@ Aplicar estas reglas al texto encargado y a la conversación:
 - Evitar tríadas ornamentales y series de tres beneficios o adjetivos creadas para dar cadencia. Conservar las enumeraciones factuales completas cuando sus elementos forman parte del contenido, aunque sean tres. Mantener literalmente citas, denominaciones y categorías técnicas.
 - Construir cada párrafo según lo que necesita explicar. Evitar secuencias de párrafos con igual longitud, arranques repetidos y cierres simétricos. Dejar que el razonamiento determine la extensión; evitar cuotas artificiales de frases cortas y largas.
 
-Preservar resultados negativos, negaciones técnicas y límites científicos aportados que sean parte del tema. Expresar diferencias documentadas sin convertirlas en eslóganes de oposición. Respetar las citas literales. Estas reglas expresan la preferencia editorial del usuario y no funcionan como pruebas de autoría.
+Leer y aplicar `referencias/NEGACIONES_Y_PARAFRASIS.md` en cada redacción o revisión. Examinar cada negación, incluidas «no se realizó», «no se afirma» y las formuladas con «sin», «ni», «nunca» o «tampoco». Retirar comentarios editoriales; reformular el contenido necesario con una expresión directa y natural. Conservar el significado de los resultados negativos y los estados técnicos. Esa conservación permite cambiar la construcción gramatical. Mantener la negación literal únicamente cuando una alternativa pierde precisión o se trata de una cita, denominación técnica o instrucción cuyo sentido exige esa forma. Evaluar una alternativa fiel que mantenga la atribución y el alcance antes de conservar el «no»; registrar internamente el motivo de descarte de esa alternativa. Evitar sustituir todos los «no» por una misma fórmula con «sin», «ausencia» o «pendiente». Expresar diferencias documentadas sin convertirlas en eslóganes de oposición. Respetar las citas literales. Estas reglas expresan la preferencia editorial del usuario y no funcionan como pruebas de autoría.
 
 ## Alcance y fidelidad
 
@@ -50,7 +50,7 @@ Para redacción desde apuntes, leer `referencias/REDACCION_Y_SEIS_SENALES.md`. P
 
 ### 2. Inventariar y revisar internamente
 
-En documentos, leer `referencias/REVISION_DOCUMENTAL_COMPLETA.md` y seguir su procedimiento. Para DOCX, ejecutar `scripts/auditar_estilo.py entrada.docx --json --inventario` antes de editar. Registrar la decisión editorial de cada bloque de texto, incluidas las celdas. Identificar por separado las imágenes que necesitan inspección visual. La extracción automática no cuenta como revisión semántica.
+En documentos, leer `referencias/REVISION_DOCUMENTAL_COMPLETA.md` y seguir su procedimiento. Para DOCX, ejecutar `scripts/auditar_estilo.py entrada.docx --json --inventario` antes de editar. Registrar la decisión editorial de cada bloque de texto, incluidas las celdas. Añadir una decisión por cada negación localizada: retirada editorial, reformulación equivalente o conservación justificada. Una coincidencia es una localización para revisar; el script no determina su necesidad semántica. Identificar por separado las imágenes que necesitan inspección visual. La extracción automática no cuenta como revisión semántica.
 
 Al recibir un encargo con un archivo local de instrucciones explícito, leer ese archivo y comprobar su versión. Evitar asumir que una instalación de otro entorno fue actualizada automáticamente.
 
@@ -66,7 +66,7 @@ Aplicar las reglas de expresión en toda salida. Mantener el léxico técnico y 
 
 ### 4. Comprobar la entrega completa
 
-Abrir el archivo final guardado, extraer nuevamente su contenido y ejecutar el auditor sobre ese archivo. Comparar los datos de la versión revisada con el original. Resolver cada coincidencia mediante revisión contextual y comprobar el registro de cobertura. Revisar todos los componentes del entregable mediante `referencias/SALIDA_LIMPIA.md`. Comprobar también el estilo de cualquier comentario de chat.
+Abrir el archivo final guardado, extraer nuevamente su contenido y ejecutar el auditor sobre ese archivo. Comparar los datos de la versión revisada con el original. Resolver cada coincidencia mediante revisión contextual y comprobar el registro de cobertura. Examinar las negaciones que permanezcan en el archivo final y registrar la justificación de cada conservación. Revisar también las sustituciones léxicas para evitar una acumulación de «sin» o «pendiente». Revisar todos los componentes del entregable mediante `referencias/SALIDA_LIMPIA.md`. Comprobar también el estilo de cualquier comentario de chat.
 
 En documentos extensos, revisar la relación entre objetivos y resultados con la matriz de `referencias/REDACCION_Y_SEIS_SENALES.md`. Limitar el diagnóstico a las secciones disponibles y comunicar cualquier petición de contexto en la conversación.
 
@@ -74,6 +74,7 @@ Entregar la versión limpia. Añadir diagnóstico en el chat únicamente cuando 
 
 ## Materiales de apoyo
 
+- `referencias/NEGACIONES_Y_PARAFRASIS.md`: revisión obligatoria de cada negación y paráfrasis con control de significado.
 - `referencias/REVISION_DOCUMENTAL_COMPLETA.md`: inventario, reescritura por bloques y comprobación del archivo guardado.
 - `referencias/SALIDA_LIMPIA.md`: contrato de canales, tratamiento de incidencias y control de entrega.
 - `referencias/REGLAS_DE_REDACCION.md`: reglas operativas por problema y sección.

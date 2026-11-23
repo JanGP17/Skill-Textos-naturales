@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile, BadZipFile
 from xml.etree import ElementTree as ET
@@ -21,9 +22,10 @@ RULES = [
     ("RN-19", "tono publicitario", "media", r"\b(?:solución revolucionaria|a la vanguardia de la innovación|amplia gama de beneficios|marca un antes y un después)\b", "Reformular como evidencia concreta."),
     ("RN-23", "voz conversacional", "alta", r"\b(?:espero que (?:te|le|les) (?:sea|haya sido) útil|si (?:quieres|deseas),? puedo|como (?:modelo de lenguaje|inteligencia artificial))\b", "Eliminar respuesta de asistente ajena al género documental."),
     ("RN-28", "marcador pendiente", "alta", r"\[(?:nombre del autor|insertar (?:información|texto|dato)|referencia pendiente|fuente pendiente|resultado pendiente)[^\]]*\]", "Consultar en el chat; conservar los datos aportados mientras falte corrección confirmada. Retirar marcadores del entregable."),
-    ("RN-39", "reserva editorial de evidencia", "alta", r"\bno\s+(?:se\s+)?(?:acredita[n]?|prueba[n]?|certifica[n]?|equivale|significa|permite[n]?)\b", "Determinar la función. Retirar reservas del editor del entregable y describir su objeto directamente; tratar la evaluación en el chat. Preservar resultados y estados técnicos sustantivos."),
+    ("RN-39", "reserva editorial de evidencia", "alta", r"\bno\s+(?:se\s+)?(?:acredita[n]?|prueba[n]?|certifica[n]?|equivale|significa|permite[n]?)\b", "Determinar la función. Retirar reservas del editor del entregable y describir su objeto directamente; tratar la evaluación en el chat. Conservar el significado de los resultados y estados técnicos; evaluar su paráfrasis mediante RN-41."),
     ("RN-39", "aclaración de verificación", "alta", r"\b(?:fecha[s]?\s+(?:inválida[s]?|imposible[s]?)|requiere[n]?\s+(?:verificación|conciliación|confirmación|respaldo|sustento)|según\s+la\s+fuente|la\s+fuente\s+(?:informa|consigna|registra|indica)|por\s+(?:verificar|confirmar))\b", "Tratar la incidencia en el chat. Preservar el dato aportado sin etiqueta de invalidez ni aviso en el documento."),
     ("RN-39", "comentario de conservación de evidencia", "alta", r"\bse\s+conserva\b.{0,160}?\bcomo\s+evidencia\b", "Describir el contenido directamente y resolver el comentario editorial en el chat."),
+    ("RN-41", "negación para revisión contextual", "contextual", r"\b(?:no|nunca|jamás|tampoco|ni|sin)\b", "Leer la oración completa. Retirar el comentario editorial, reformular con equivalencia o justificar la conservación por precisión. Registrar la decisión; evitar borrar el marcador automáticamente."),
 ]
 
 
@@ -46,9 +48,18 @@ def audit(text: str) -> list[dict]:
             for hit in re.finditer(regex, line, flags=re.IGNORECASE | re.UNICODE):
                 reports.append({"linea": lineno, "regla": rid,
                                 "clase": label, "severidad": severity,
-                                "fragmento": hit.group(0), "sugerencia": advice})
+                                "fragmento": hit.group(0), "sugerencia": advice,
+                                "columna": hit.start() + 1,
+                                "contexto": line[max(0, hit.start()-100):hit.end()+140]})
     return reports
 
+
+def negation_summary(reports: list[dict]) -> dict:
+    """Contar localizaciones; reservar la decisión de estilo al editor."""
+    hits = [r for r in reports if r["regla"] == "RN-41"]
+    return {"apariciones": len(hits),
+            "por_marcador": dict(Counter(r["fragmento"].lower() for r in hits)),
+            "decision_semantica": "pendiente_de_revision_contextual"}
 
 
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
@@ -137,7 +148,8 @@ def audit_docx(path: Path) -> dict:
         for finding in audit(block["texto"]):
             findings.append({**finding, "id": block["id"], "parte": block["parte"],
                              "ubicacion": block["ubicacion"], "seccion": block["seccion"]})
-    return {**inventory, "hallazgos": findings}
+    return {**inventory, "hallazgos": findings,
+            "revision_negaciones": negation_summary(findings)}
 
 
 def main() -> None:
@@ -156,6 +168,7 @@ def main() -> None:
                 result.pop("bloques")
         else:
             result = {"hallazgos": audit(args.archivo.read_text(encoding="utf-8-sig"))}
+            result["revision_negaciones"] = negation_summary(result["hallazgos"])
     except (OSError, BadZipFile, ET.ParseError, ValueError) as exc:
         parser.error(f"No se pudo leer el archivo: {exc}")
     result["archivo"] = str(args.archivo)
@@ -164,6 +177,7 @@ def main() -> None:
         print(json.dumps(result, ensure_ascii=False, indent=2))
     else:
         print(f"Revisión heurística de {args.archivo}: {len(result['hallazgos'])} coincidencia(s)")
+        print(f"Marcadores negativos para revisar: {result['revision_negaciones']['apariciones']}")
         if "cobertura" in result:
             c = result["cobertura"]
             print(f"Inventario: {c['bloques_con_texto']} bloques, {c['tablas']} tablas, {c['celdas']} celdas, {c['imagenes_archivo']} imágenes de archivo.")

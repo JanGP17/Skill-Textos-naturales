@@ -46,7 +46,7 @@
 | 38 | «No hay información» sin comprobación | FONDO | Acotar alcance de búsqueda o verificar. |
 | 39 | Especulación para tapar vacíos | INTEGRIDAD | Preservar el carácter hipotético aportado; consultar en el chat los cambios de sentido. |
 | 40 | Reencuadre correctivo repetitivo | ESTILO | Formular directamente, evitando reencuadres por oposición. |
-| 41 | Negaciones preventivas reiteradas | ESTILO | Mantener matices inferenciales realmente necesarios. |
+| 41 | Negaciones preventivas reiteradas | ESTILO | Conservar los matices; evaluar una paráfrasis y justificar cada negación literal mediante RN-41. |
 | 42 | Aclaraciones conceptuales innecesarias | ESTILO | Reservar para ambigüedades reales. |
 | 43 | `[Nombre]` y otros marcadores | INTEGRIDAD | Requerir información; no completar arbitrariamente. |
 | 44 | Fechas/enlaces de relleno | INTEGRIDAD | Evitar fechas inventadas por el asistente; conservar fechas aportadas mientras siga sin resolverse una consulta. |
@@ -123,6 +123,6 @@ Fuentes para consulta y verificación contextual:
 - https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 - https://guides.turnitin.com/hc/en-us/categories/28038455654861-AI-Writing
 
-## Aplicación obligatoria en v2.2
+## Aplicación obligatoria en v2.3
 
 Aplicar las reglas de expresión de SKILL.md en toda salida. Los avisos, comprobaciones y asuntos pendientes mencionados en este inventario pertenecen al análisis interno o se resuelven en el chat. Aplicar el tratamiento de consultas sin respuesta de SALIDA_LIMPIA.md. No se trasladan al documento final. Aplicar SALIDA_LIMPIA.md, incluidas las notas de figuras. Conservar los límites sustantivos pertinentes. Se mantienen las 89 entradas como inventario de consulta.

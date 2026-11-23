@@ -77,7 +77,9 @@ class WordAuditTest(unittest.TestCase):
 
     def test_resultado_negativo_y_estado_tecnico(self):
         text = 'No se encontraron diferencias estadísticamente significativas. El build no se ejecutó. El instrumento tiene tres dimensiones: acceso, uso y satisfacción.'
-        self.assertEqual(audit(text), [])
+        rows = audit(text)
+        self.assertEqual([r['fragmento'].lower() for r in rows if r['regla'] == 'RN-41'], ['no', 'no'])
+        self.assertTrue(all(r['severidad'] == 'contextual' for r in rows))
 
     def test_cambio_controlado_eliminado(self):
         self.write('<w:p><w:del><w:r><w:delText>Fecha inválida.</w:delText></w:r></w:del><w:ins><w:r><w:t>Texto vigente.</w:t></w:r></w:ins></w:p>')

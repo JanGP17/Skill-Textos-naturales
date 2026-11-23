@@ -27,12 +27,12 @@ Estos casos se recomiendan para comprobar que Codex respeta el alcance de la ski
 21. **Conservar voz:** un párrafo claro usa primera persona admitida por el encargo. Esperado: no convertirlo automáticamente en impersonal ni sofisticarlo con sinónimos.
 22. **Desarrollo argumentativo:** dos estudios aportados usan poblaciones distintas. Esperado: contrastar solo diferencias conocidas y no inventar que explican causalmente un resultado.
 
-## Casos obligatorios de salida limpia · v2.2
+## Casos obligatorios de salida limpia · v2.3
 
 23. **Pie de figura A13:** captura con página de Historia y panel de edición. Pedir descripción para el informe. Esperado: describir el contenido y conservar A13; sin comentar si se guardaron cambios, sin afirmar guardado.
 24. **Guardado esencial:** pedir afirmar guardado con solo una captura del editor. Esperado: pregunta concreta en el chat; ningún pie final con una advertencia ni hecho inventado.
 25. **Documento final:** revisar una nota con «no se puede verificar con la información proporcionada». Esperado: omitir si es accesoria o consultar si es esencial; nunca mover la frase al cierre, anexo o nota al pie.
-26. **Resultado negativo:** estudio con ausencia de diferencia estadísticamente significativa. Esperado: conservar el resultado negativo sin considerarlo un comentario editorial.
+26. **Resultado negativo:** estudio con ausencia de diferencia estadísticamente significativa. Esperado: conservar el significado del resultado y evaluar una paráfrasis equivalente. Justificar internamente una conservación literal.
 27. **Límite sustantivo:** estudio de un solo centro, con alcance explícito. Esperado: mantener el alcance pertinente sin añadir un cierre defensivo de rutina.
 28. **Cierre de asistente:** párrafo terminado seguido de «Este texto conserva tus datos. Verifica la información antes de usarlo». Esperado: entregar solo el párrafo, consultando previamente cualquier duda esencial.
 29. **Auditoría solicitada:** pedir diagnóstico y versión final. Esperado: diagnóstico en el chat, texto final limpio; no un apéndice automático en el documento revisado.
@@ -41,7 +41,7 @@ Estos casos se recomiendan para comprobar que Codex respeta el alcance de la ski
 
 
 32. **Fecha original y consulta sin respuesta:** «La prueba se ejecutó el 35/10/2026», con encargo de edición expresiva. Esperado: conservar la fecha cuando no existe corrección confirmada; omitir «fecha inválida», `[sic]`, avisos en celdas y notas finales.
-33. **Documento compuesto:** auditar y humanizar un anexo con título, introducción, tabla y nota. Esperado: diagnóstico en el chat; revisión de todos los componentes; versión completa sin intrusiones editoriales, incluso las que ya estén en el original. Retirar reservas añadidas como «estos resultados no modifican el estado informado» que justifican fechas incompletas. Conservar estados técnicos aportados como «no ejecutado».
+33. **Documento compuesto:** auditar y humanizar un anexo con título, introducción, tabla y nota. Esperado: diagnóstico en el chat; revisión de todos los componentes; versión completa sin intrusiones editoriales, incluso las que ya estén en el original. Retirar reservas añadidas como «estos resultados no modifican el estado informado» que justifican fechas incompletas. Conservar el significado de los estados técnicos y evaluar su paráfrasis con RN-41.
 34. **Canal y formato:** entregar un mensaje de bienvenida directamente en el chat. Esperado: tratarlo como texto encargado; mantener comentarios del asistente fuera del mensaje.
 35. **Nueva afirmación sin dato:** pedir afirmar guardado exitoso con una captura del editor. Esperado: consulta en el chat; mientras no haya respuesta, conservar la descripción disponible sin inventar el guardado.
 36. **Estilo del chat:** solicitar una explicación de la revisión. Esperado: expresión directa, sin moldes de oposición retórica ni tríadas ornamentales; evitar generalidades y cadencias repetidas.
@@ -56,3 +56,14 @@ Estos casos se recomiendan para comprobar que Codex respeta el alcance de la ski
 43. **Instalación concreta:** encargo señala una ruta local a SKILL.md. Esperado: leer ese archivo antes de aplicar; comprobar su versión en ese entorno.
 
 44. **Recapitulación encubierta:** después de conservar fechas en una tabla, una nota repite las fechas que motivaron la auditoría sin usar «inválida». Esperado: retirar la nota si su función sigue siendo recapitular incidencias; mantener los datos en sus registros y tratar las discrepancias en el chat.
+
+45. **Negación de ejecución:** «No se realizó la prueba de carga». Esperado: localizar la negación y evaluar una paráfrasis fiel. Evitar inventar una programación futura o un motivo para la falta de ejecución.
+46. **Reserva editorial genérica:** «No se afirma tal resultado». Esperado: retirarla del texto encargado cuando sea una aclaración del editor; tratar el contenido necesario en el chat.
+47. **Cuantificadores:** «No todos completaron la tarea», sin recuentos. Esperado: conservar la cuantificación parcial; evitar inventar cifras o afirmar que todos fallaron.
+48. **Estados distintos:** una actividad quedó descartada; otra quedó sin realizar al corte. Esperado: conservar sus estados distintos; evitar agruparlas como pendientes.
+49. **Resultado estadístico:** ausencia de diferencias significativas con p aportado. Esperado: conservar p y el resultado inferencial; evitar declarar igualdad de grupos o ausencia de efecto.
+50. **Siglas y denominaciones:** cita literal con «no», prueba no paramétrica y sigla `NO`. Esperado: localizar para revisar en contexto y conservar su precisión; registrar la decisión.
+51. **Repetición alternativa:** párrafo con muchos «no» reescrito mediante repetición de «sin» y «pendiente». Esperado: reconstruir el párrafo con naturalidad usando la información disponible.
+
+52. **Alcance de los reportes:** «Los revisores no reportaron errores». Esperado: evaluar «La revisión transcurrió sin reportes de errores» cuando ese sea el contexto; conservar el alcance de lo reportado y evitar atribuir ausencia de defectos al sistema.
+53. **Ausencia de material para el editor:** «No se aportaron recuentos» en un resultado. Esperado: retirar la aclaración si describe los materiales recibidos por el asistente; tratar la consulta en el chat y evitar conservarla con otra fórmula de carencia.

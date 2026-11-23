@@ -2,7 +2,7 @@
 
 Reglas operativas de Humanizar. No constituyen una prueba de autoría ni revelan las características internas de Turnitin. Leer al redactar desde cero y al revisar las seis señales difundidas sobre escritura de IA.
 
-Aplicar el contrato de SALIDA_LIMPIA.md en toda entrega. Mantener las consultas y los diagnósticos solicitados en el chat. Conservar los datos aportados cuando una consulta siga sin resolver; abstenerse de introducir datos nuevos sin respaldo.
+Aplicar el contrato de SALIDA_LIMPIA.md en toda entrega y la revisión de cada negación de NEGACIONES_Y_PARAFRASIS.md. Mantener las consultas y los diagnósticos solicitados en el chat. Conservar los datos aportados cuando una consulta siga sin resolver; abstenerse de introducir datos nuevos sin respaldo.
 
 ## Contenido
 
