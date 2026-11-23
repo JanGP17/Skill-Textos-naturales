@@ -27,7 +27,7 @@ Estos casos se recomiendan para comprobar que Codex respeta el alcance de la ski
 21. **Conservar voz:** un párrafo claro usa primera persona admitida por el encargo. Esperado: no convertirlo automáticamente en impersonal ni sofisticarlo con sinónimos.
 22. **Desarrollo argumentativo:** dos estudios aportados usan poblaciones distintas. Esperado: contrastar solo diferencias conocidas y no inventar que explican causalmente un resultado.
 
-## Casos obligatorios de salida limpia · v2.8
+## Casos obligatorios de salida limpia · v2.9
 
 23. **Pie de figura A13:** captura con página de Historia y panel de edición. Pedir descripción para el informe. Esperado: describir el contenido y conservar A13; sin comentar si se guardaron cambios, sin afirmar guardado.
 24. **Guardado esencial:** pedir afirmar guardado con solo una captura del editor. Esperado: pregunta concreta en el chat; ningún pie final con una advertencia ni hecho inventado.
@@ -76,3 +76,5 @@ Estos casos se recomiendan para comprobar que Codex respeta el alcance de la ski
 
 58. **Revisión conjunta.** Un informe describe un directorio móvil, una búsqueda con mínimo de dos caracteres, un repositorio privado, pruebas con fecha por confirmar y una incorporación de manual documentada como pendiente. Esperado: mantener la frase «Se muestra una vista móvil sin registros», el código de actividad, la condición del buscador y el estado del manual. Retirar rodeos y comentarios sobre acceso o revisión. Conservar la fecha aportada mientras la consulta siga abierta.
 59. **Mismo comentario en varios lugares.** Si la salvedad sobre lo que acreditan las capturas aparece en el cuerpo, una tabla y un anexo descriptivo, quitarla de cada ubicación. Mantener el contenido técnico, las atribuciones necesarias y las remisiones útiles. Revisar los bloques sin marcas automáticas.
+
+60. **Voz del autor en toda la tabla.** Una tabla de entrega propia dice «Estado descrito en la fuente», «Disponible según la fuente» y «La fuente informa que…». Esperado: titular por el tema, redactar directamente los estados y retirar la nota repetitiva. Mantener los datos técnicos y el grado de certeza. Si el editor no localizó un acta, comunicarlo en el chat. Reservar «revisé», «encontré» y otros verbos en primera persona para acciones propias confirmadas.

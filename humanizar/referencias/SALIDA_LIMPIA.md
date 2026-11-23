@@ -1,4 +1,4 @@
-# Contrato de salida limpia · Humanizar 2.8
+# Contrato de salida limpia · Humanizar 2.9
 
 Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 
@@ -36,7 +36,7 @@ Excluir comentarios del asistente sobre acceso a fuentes, falta de comprobación
 
 Reconocer la función de la frase: «la captura no permite saber si…», «fecha inválida», «requiere verificación», «no se ha podido confirmar», «según la información proporcionada» y «no acredita por sí solo» suelen introducir la revisión del asistente en el documento. Ante una intrusión de ese tipo, retirarla; evitar conservarla mediante una paráfrasis.
 
-Usar atribuciones a fuentes cuando forman parte de la argumentación real. Evitar anteponer «la fuente informa» a cada dato conservado. Preservar el significado de los estados sustantivos aportados y reformular su expresión aplicando NEGACIONES_Y_PARAFRASIS.md. Evaluar cada negación técnica antes de decidir conservarla. Retirar las advertencias que relativizan cada evidencia, aunque ya estén en el texto recibido.
+Redactar desde la perspectiva del autor también en tablas. Sustituir encabezados como «Estado descrito en la fuente» y «Evidencia descrita» por títulos que nombren el objeto del apartado. Expresar los estados directamente. Usar primera persona para acciones propias confirmadas cuando encaje con la voz del autor. Atribuir declaraciones ajenas a su documento o responsable cuando esa procedencia delimite lo que se sabe. Evitar convertir «no se localizó» en «no existe» o «no fue firmada». Preservar el significado de los estados sustantivos aportados y reformular su expresión aplicando NEGACIONES_Y_PARAFRASIS.md. Evaluar cada negación técnica antes de decidir conservarla. Retirar las advertencias que relativizan cada evidencia, aunque ya estén en el texto recibido.
 
 ### Clasificar antes de preservar
 

@@ -47,14 +47,18 @@ Determinar qué tarea cumple el apartado y qué información necesita su lector.
 | Consulta sobre fechas, recuentos, actas, guardado o permisos de acceso | Tramitar la consulta en el chat. Conservar el dato aportado en su registro mientras falte una corrección confirmada. Suprimir etiquetas del revisor y recapitulaciones. Si un campo admite quedar vacío y el dato falta, dejarlo vacío. Respetar los códigos de datos faltantes exigidos por el formato. |
 | Tarea del revisor, como «capturas por seleccionar» o «acceso pendiente de confirmar» | Retirar el recordatorio del entregable. Mantener un estado pendiente únicamente cuando esté documentado como parte del proyecto. |
 | Estado real de una prueba, un manual o una validación | Conservar el estado y su alcance. Un build sin ejecutar, un manual excluido del paquete y un acta que el revisor no localizó describen situaciones distintas. La última queda como consulta si corresponde. |
-| Atribución genérica, como «según la fuente» o «el borrador señala» | Conservar o precisar la atribución cuando sostenga el dato o delimite su certeza. Retirar las fórmulas repetitivas que solo narren el trabajo editorial. |
+| Perspectiva de un tercero en títulos, columnas, celdas y notas | Nombrar primero el tema del apartado. Usar estados directos en las celdas. Para una acción propia confirmada, la primera persona puede expresar quién la realizó. Conservar atribuciones específicas que delimiten los hechos. Retirar las fórmulas que narren el trabajo editorial y las notas que repitan la tabla. |
 | Oposición innecesaria, calificativos vagos, conectores formales o nominalizaciones como «mensaje de ausencia de registros» | Quitar la frase si es accesoria. Cuando el dato sea necesario, reconstruir la frase con lenguaje directo desde las ideas clave. Preservar las relaciones y las negaciones técnicas que determinan el significado. |
 
 Asignar un lugar principal a cada dato y mantener las remisiones que ayuden a navegar el documento. Eliminar repeticiones en otros bloques cuando carezcan de función propia. En el registro interno indicar qué se retiró, qué dato se conservó y qué decisión corresponde consultar. Mantener ese registro fuera del entregable.
 
 ## 4. Reformular el contenido
 
-Escribir directamente desde la voz del autor. Eliminar moldes de oposición y amplificaciones prefabricadas. Dar a las ideas su extensión necesaria. Retirar tríadas ornamentales y generalidades vacías.
+Escribir directamente desde la voz del autor. Cotejar los verbos en primera persona con las acciones que el autor indicó que realizó.
+
+**Caso de la Tabla 16.1.** En una tabla del propio proyecto, usar «Estado de la documentación y la entrega técnica». Formular celdas directas como «README versionado» y «Build sin ejecutar». Conservar la versión declarada, la rama y el identificador de la revisión. Mantener la incorporación y revisión del manual como pendientes cuando así consten. Si el acta simplemente quedó fuera de lo que el revisor pudo localizar, tratar la consulta en el chat. Retirar la nota si solo repite la tabla o narra lo que informó la fuente.
+
+Eliminar moldes de oposición y amplificaciones prefabricadas. Dar a las ideas su extensión necesaria. Retirar tríadas ornamentales y generalidades vacías.
 
 Evitar sustituir una advertencia por otra redacción que conserve su función editorial. Retirar también las notas que recapitulan incidencias de auditoría con lenguaje aparentemente descriptivo. Conservar datos en sus registros de origen; evitar reconstruir una nota para proteger cada repetición numérica. Ejemplo recibido: «Las imágenes ilustran interfaces; no prueban por sí solas funcionamiento integral ni aceptación». Redacción para una relación de evidencias: «Vistas públicas, móviles y administrativas de los anexos 6–13». Tratar la aceptación en el chat si necesita una decisión.
 

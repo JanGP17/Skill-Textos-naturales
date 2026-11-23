@@ -110,7 +110,7 @@ Leer estas observaciones como límites de atribución. Aplicar RN-12 y RN-13 al 
 
 **RN-38. No fabricar contraste ni laguna.** La confrontación bibliográfica exige fuentes reales y pertinentes; no inventar desacuerdos, novedad absoluta, anomalías o incidentes para enriquecer el argumento.
 
-## F. Regla obligatoria de salida limpia (v2.8)
+## F. Regla obligatoria de salida limpia (v2.9)
 
 **RN-39. Entregar documentos limpios.** Aplicar SALIDA_LIMPIA.md en cada entrega. Nunca trasladar comentarios del editor al cuerpo, las notas, los pies de figura, las tablas, los anexos o el cierre del documento. Tratar las dudas en el chat según SALIDA_LIMPIA.md. Conservar datos aportados mientras no exista una corrección confirmada. Omitir aclaraciones accesorias. Retirar también los residuos editoriales presentes en el original. Mantener el significado de los resultados negativos y límites sustantivos; evaluar su paráfrasis mediante RN-41.
 
