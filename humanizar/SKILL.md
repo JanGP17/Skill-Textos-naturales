@@ -3,13 +3,13 @@ name: humanizar
 description: Redacta, edita y audita textos académicos y profesionales en español con voz natural y contenido fiel al original. Usar al pedir humanizar, mejorar redacción o auditar escritura. Entregar prosa final limpia; revisar cada negación y parafrasear con precisión; tratar las incidencias editoriales exclusivamente en el chat. Evitar oposición retórica, generalidades vacías, tríadas ornamentales y ritmos mecánicos en documentos y conversación. No aplica APA 7 ni promete resultados en detectores de IA.
 ---
 
-# Humanizar · v2.4
+# Humanizar · v2.5
 
 ## Contrato obligatorio de entrega
 
 Leer `referencias/SALIDA_LIMPIA.md` antes de redactar o editar. Aplicar ese contrato a todo texto listo para usar, incluso cuando se entregue dentro del chat. Abarcar documentos, mensajes, páginas web y cualquier otro contenido encargado. Revisar también tablas, títulos, notas y anexos.
 
-**Texto encargado:** escribir desde la voz del autor, con el registro del género. Entregar únicamente contenido dirigido a su lector. Retirar aclaraciones del asistente, advertencias de verificación, etiquetas de invalidez y explicaciones de lo que falta, aunque ya aparezcan en el original. Distinguir estos residuos editoriales de los datos y estados técnicos del objeto descrito. Terminar al completar el contenido.
+**Texto encargado:** escribir desde la voz del autor, con el registro del género. Entregar únicamente contenido dirigido a su lector. Retirar aclaraciones del asistente, advertencias de verificación, etiquetas de invalidez y explicaciones de lo que falta, aunque ya aparezcan en el original. Distinguir estos residuos editoriales de los datos y estados técnicos del objeto descrito. En informes finales, limitar cada descripción y nota de figura a la información pertinente para su propósito. Retirar las observaciones y aclaraciones del revisor incluso cuando parezcan descripciones neutrales de la imagen. Si el título ya comunica lo necesario, retirar la nota redundante. Tratar cualquier duda en el chat. Terminar al completar el contenido.
 
 **Conversación de trabajo:** plantear aquí las preguntas necesarias y comunicar los hallazgos cuando se solicite auditoría. Mantener estas intervenciones fuera del texto encargado. Al pedir «auditar y humanizar», realizar la auditoría en el chat y entregar por separado la versión limpia. Crear un informe de auditoría únicamente si se encarga expresamente; sus hallazgos serán contenido del informe y las consultas editoriales seguirán en el chat.
 
@@ -70,7 +70,7 @@ Aplicar las reglas de expresión en toda salida. Mantener el léxico técnico y 
 
 ### 4. Comprobar la entrega completa
 
-Abrir el archivo final guardado, extraer nuevamente su contenido y ejecutar el auditor sobre ese archivo. Comparar los datos de la versión revisada con el original. Resolver cada coincidencia mediante revisión contextual y comprobar el registro de cobertura. Examinar las negaciones que permanezcan en el archivo final y registrar la justificación de cada conservación. Revisar también las sustituciones léxicas para evitar una acumulación de «sin» o «pendiente». Revisar todos los componentes del entregable mediante `referencias/SALIDA_LIMPIA.md`. Comprobar también el estilo de cualquier comentario de chat.
+Abrir el archivo final guardado, extraer nuevamente su contenido y ejecutar el auditor sobre ese archivo. Comparar los datos de la versión revisada con el original. Resolver cada coincidencia mediante revisión contextual y comprobar el registro de cobertura. Examinar las negaciones que permanezcan en el archivo final y registrar la justificación de cada conservación. Revisar también las sustituciones léxicas para evitar una acumulación de «sin» o «pendiente». Revisar todos los componentes del entregable mediante `referencias/SALIDA_LIMPIA.md`. Revisar juntos el texto introductorio, el título y la nota de cada figura. Retirar una observación editorial de todos los lugares donde aparezca, incluso si se reescribió como una descripción. Comprobar también el estilo de cualquier comentario de chat.
 
 En documentos extensos, revisar la relación entre objetivos y resultados con la matriz de `referencias/REDACCION_Y_SEIS_SENALES.md`. Limitar el diagnóstico a las secciones disponibles y comunicar cualquier petición de contexto en la conversación.
 

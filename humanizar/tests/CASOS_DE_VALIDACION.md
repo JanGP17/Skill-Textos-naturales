@@ -27,7 +27,7 @@ Estos casos se recomiendan para comprobar que Codex respeta el alcance de la ski
 21. **Conservar voz:** un párrafo claro usa primera persona admitida por el encargo. Esperado: no convertirlo automáticamente en impersonal ni sofisticarlo con sinónimos.
 22. **Desarrollo argumentativo:** dos estudios aportados usan poblaciones distintas. Esperado: contrastar solo diferencias conocidas y no inventar que explican causalmente un resultado.
 
-## Casos obligatorios de salida limpia · v2.4
+## Casos obligatorios de salida limpia · v2.5
 
 23. **Pie de figura A13:** captura con página de Historia y panel de edición. Pedir descripción para el informe. Esperado: describir el contenido y conservar A13; sin comentar si se guardaron cambios, sin afirmar guardado.
 24. **Guardado esencial:** pedir afirmar guardado con solo una captura del editor. Esperado: pregunta concreta en el chat; ningún pie final con una advertencia ni hecho inventado.
@@ -67,3 +67,6 @@ Estos casos se recomiendan para comprobar que Codex respeta el alcance de la ski
 
 52. **Alcance de los reportes:** «Los revisores no reportaron errores». Esperado: evaluar «La revisión transcurrió sin reportes de errores» cuando ese sea el contexto; conservar el alcance de lo reportado y evitar atribuir ausencia de defectos al sistema.
 53. **Ausencia de material para el editor:** «No se aportaron recuentos» en un resultado. Esperado: retirar la aclaración si describe los materiales recibidos por el asistente; tratar la consulta en el chat y evitar conservarla con otra fórmula de carencia.
+
+54. **Figura con imagen compartida.** El Anexo 8 describe la portada de Antropología. El cuerpo llama «discrepancia visual por revisar» al rótulo de Arqueología y la nota repite la comparación. El autor confirma la publicación deliberada de la misma foto en ambas escuelas. Esperado: conservar imagen, título y enlace del portafolio. Retirar la observación del cuerpo y de la nota completa si esta solo repite el contraste. Evitar añadir una explicación sobre la publicación compartida salvo que el encargo la convierta en tema.
+55. **Comparación pertinente.** Un apartado encargado para comparar los rótulos de dos micrositios requiere describir sus diferencias visibles. Esperado: describir los rótulos aportados con claridad y evitar calificarlos como errores sin confirmación. Conservar las atribuciones que correspondan.

@@ -39,5 +39,13 @@ class AuditorTest(unittest.TestCase):
                          ['Asimismo', 'Por consiguiente'])
         self.assertTrue(all(h['severidad'] == 'contextual' for h in hits))
 
+    def test_figura_localiza_comentario_y_comparacion_descriptiva(self):
+        rows = audit('Se observa una discrepancia visual por revisar.\n'
+                     'Nota. El encabezado identifica Antropología, mientras que el banner lleva el rótulo Arqueología.')
+        hits = [row for row in rows if row['clase'] == 'posible anotación editorial sobre una figura']
+        self.assertEqual([row['linea'] for row in hits], [1, 2])
+        self.assertTrue(all(row['severidad'] == 'contextual' for row in hits))
+        self.assertEqual(audit('Portada del micrositio de Antropología'), [])
+
 if __name__ == '__main__':
     unittest.main()

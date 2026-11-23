@@ -1,4 +1,4 @@
-# Contrato de salida limpia · Humanizar 2.4
+# Contrato de salida limpia · Humanizar 2.5
 
 Aplicar a cualquier contenido encargado, tanto en archivos como en texto listo para copiar del chat. Revisar todos sus componentes, incluidos pies de figura, tablas y anexos. Este contrato prevalece sobre las pautas editoriales de las demás referencias.
 
@@ -56,6 +56,14 @@ La conservación del original protege los datos y el argumento del autor. Identi
 En una evaluación técnica cuyo encargo expreso sea determinar cumplimiento o aceptación, comunicar los hallazgos de ese objeto con el respaldo disponible. Mantener las consultas del editor en el chat. Evitar aplicar esa finalidad a un anexo descriptivo por iniciativa propia.
 
 Conservar el significado de los resultados negativos y las limitaciones científicas. Aplicar NEGACIONES_Y_PARAFRASIS.md para elegir una expresión natural con el mismo alcance. Registrar internamente el motivo de cada negación literal conservada. Mantener las citas literales y las fuentes de figuras. Evaluar cada nota por su función.
+
+### Describir las figuras según el propósito del anexo
+
+Leer juntos el párrafo que presenta la figura, el título, la nota y las referencias a la imagen en el cuerpo. Conservar solo el contenido que ayude al lector a entender el objeto documentado. Retirar las anotaciones, hipótesis y aclaraciones del revisor de todas sus ubicaciones, incluso cuando aparezcan como comparaciones descriptivas sin palabras de advertencia. Si la nota no aporta contenido pertinente más allá del título, quitarla completa. Mantener las atribuciones que correspondan.
+
+Una diferencia visible entre un encabezado y un rótulo, o la aparición de una misma imagen en dos lugares, por sí sola no establece una incidencia. Evitar inferir errores, tareas pendientes o intenciones. Si la duda requiere una decisión, trasladarla al chat. Si el autor confirma que la reutilización fue intencional, cerrar la duda editorial. Mencionar la reutilización en el informe únicamente cuando el encargo la convierta en parte del tema.
+
+**Caso del Anexo 8. Antropología.** El encabezado identifica el micrositio de Antropología. El banner muestra un rótulo de Arqueología y el autor confirma que publicó la misma foto en ambas escuelas. El anexo documenta la portada del micrositio. Dejar «Figura 8.1. Portada del micrositio de Antropología» con el enlace del portafolio y la imagen. Retirar «discrepancia visual por revisar» del cuerpo y la comparación del encabezado con el rótulo de la nota. El título basta para identificar la figura.
 
 ### Retirar recapitulaciones de la auditoría
 

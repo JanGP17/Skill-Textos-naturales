@@ -46,7 +46,7 @@ Conservar el significado de los estados técnicos aportados aplicando NEGACIONES
 
 Abrir el archivo de salida guardado. Ejecutar sobre él el mismo inventario y auditor. Cotejar el texto extraído con las decisiones del registro interno. Resolver cada coincidencia contextual; evitar usar cero coincidencias como objetivo o certificado. Revisar las apariciones RN-41 y justificar internamente cada negación conservada en la salida.
 
-Revisar de nuevo las celdas modificadas y los anexos. Buscar también equivalentes de las aclaraciones retiradas, aunque usen palabras distintas. Comprobar la fidelidad de fechas y cifras. Verificar que los enlaces y las imágenes se mantengan cuando se haya pedido conservarlos. Renderizar el documento y comprobar su presentación mediante la herramienta del formato.
+Revisar de nuevo las celdas modificadas y los anexos. Cotejar en conjunto el texto que presenta cada figura, su título y su nota. Retirar observaciones editoriales duplicadas o reformuladas como comparaciones visuales. Aplicar el caso del Anexo 8 de SALIDA_LIMPIA.md. Buscar también equivalentes de las aclaraciones retiradas, aunque usen palabras distintas. Comprobar la fidelidad de fechas y cifras. Verificar que los enlaces y las imágenes se mantengan cuando se haya pedido conservarlos. Renderizar el documento y comprobar su presentación mediante la herramienta del formato.
 
 ## 6. Criterio de cierre
 
